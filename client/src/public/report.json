@@ -1,0 +1,1867 @@
+{
+  "middle_level_management": {
+    "sections": [
+      {
+        "title": "Time Management Efficiency and Workload Management",
+        "scoring_breakdown": {
+            "8-10 Points": "Excellent time management skills; rarely struggles to balance tasks or meet deadlines.",
+            "6-7.9 Points": "Good time management but occasionally faces challenges in prioritizing or handling workload.",
+            "4-5.9 Points": "Frequent issues with time management and delegation, leading to stress and inefficiency.",
+            "Below 4 Points": "Significant difficulty  managing time and workload, with regular disruptions to productivity."
+          },
+        "performance_levels": [
+          {
+            "level": "Excellent Time Management (8-10 Points)",
+            "score_range": "8-10 Points",
+            "key_findings": [
+              {
+                "finding": "Exceptional Task Prioritization",
+                "description": "Consistently assesses tasks for urgency and importance, effectively balancing daily responsibilities with long-term goals."
+              },
+              {
+                "finding": "Effective Delegation Skills",
+                "description": "Regularly delegates tasks to the team based on individual strengths, enhancing productivity."
+              },
+              {
+                "finding": "Proactive Crisis Management",
+                "description": "Quickly identifies and addresses bottlenecks, redistributing tasks as needed to keep projects on track."
+              },
+              {
+                "finding": "Strong Multi-tasking Abilities",
+                "description": "Manages multiple deadlines effectively, balancing workload without significant stress or disruption."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Continue Current Practices",
+                "description": "Maintain the strong focus on task prioritization and effective delegation."
+              },
+              {
+                "recommendation": "Leverage Productivity Tools",
+                "description": "Explore advanced project management tools to streamline existing workflows."
+              },
+              {
+                "recommendation": "Share Best Practices",
+                "description": "Consider mentoring team members on effective time management and delegation techniques."
+              }
+            ]
+          },
+          {
+            "level": "Good Time Management",
+            "score_range": "6-7.9 Points",
+            "key_findings": [
+              {
+                "finding": "Generally Effective Task Management",
+                "description": "Prioritizes tasks well but occasionally gets caught up in less important activities."
+              },
+              {
+                "finding": "Delegation with Room for Improvement",
+                "description": "Delegates tasks but may revisit or redo delegated work due to perfectionist tendencies."
+              },
+              {
+                "finding": "Responsive Crisis Management",
+                "description": "Motivates the team to meet deadlines but may not consistently identify underlying issues causing delays."
+              },
+              {
+                "finding": "Balanced Short- and Long-term Focus",
+                "description": "Usually balances short-term tasks with strategic planning, although urgent tasks sometimes take precedence."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Enhance Task Prioritization",
+                "description": "Focus on methods to avoid distractions from lower-priority tasks, such as time-blocking."
+              },
+              {
+                "recommendation": "Improve Delegation Confidence",
+                "description": "Trust team members to carry out tasks independently, reducing the need to revisit completed work."
+              },
+              {
+                "recommendation": "Refine Crisis Management Skills",
+                "description": "Develop strategies to address root causes of delays, minimizing reactive responses."
+              }
+            ]
+          },
+          {
+            "level": "Frequent Issues",
+            "score_range": "4-5.9 Points",
+            "key_findings": [
+              {
+                "finding": "Struggles with Task Prioritization",
+                "description": "Often finds it challenging to prioritize effectively, leading to missed deadlines or rushed work."
+              },
+              {
+                "finding": "Inconsistent Delegation",
+                "description": "Limited delegation leads to an overwhelming workload, increasing personal stress and affecting productivity."
+              },
+              {
+                "finding": "Reactive Crisis Management",
+                "description": "Frequently takes on critical tasks personally when the team falls behind, rather than identifying a balanced approach."
+              },
+              {
+                "finding": "Short-term Focus Dominates",
+                "description": "Urgent tasks overshadow long-term goals, limiting strategic planning and team development."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Focus on Task Prioritization Techniques",
+                "description": "Use methods like the Eisenhower Matrix to improve decision-making and avoid distractions."
+              },
+              {
+                "recommendation": "Encourage Delegation Skills",
+                "description": "Engage in delegation workshops or coaching sessions to build confidence in assigning tasks."
+              },
+              {
+                "recommendation": "Develop Structured Crisis Responses",
+                "description": "Consider implementing contingency plans for common issues to reduce personal workload during crises."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Work-Life Balance Report",
+        "scoring_breakdown": {
+          "8-10_Points": "Maintains a healthy work-life balance, effectively setting boundaries between personal and professional life.",
+          "6-7.9_Points": "Occasional imbalance, but personal and work life are generally well-managed.",
+          "4-5.9_Points": "Regular difficulty in managing work-life balance, with personal time frequently impacted by work.",
+          "Below_4_Points": "Poor work-life balance, with work consistently overshadowing personal responsibilities and well-being."
+        },
+        "performance_levels": [
+          {
+            "Level": "Healthy Work-Life Balance ",
+            "score_range": "8-10 Points",
+            "key_findings": [
+              {
+                "finding": "Clear Boundaries Set",
+                "description": "Regularly separates work from personal time, ensuring minimal interference with family and leisure activities."
+              },
+              {
+                "finding": "Strong Time Management",
+                "description": "Allocates time effectively between work and personal responsibilities, maintaining a fulfilling balance."
+              },
+              {
+                "finding": "Supportive Work Environment",
+                "description": "Feels supported by management in maintaining boundaries and encouraged to take personal time when needed."
+              },
+              {
+                "finding": "Consistent Self-Care Practice",
+                "description": "Engages in self-care activities regularly, such as exercise, hobbies, or spending time with loved ones."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Continue Current Practices",
+                "description": "Sustain the approach to maintaining boundaries between work and personal time."
+              },
+              {
+                "recommendation": "Encourage Team Balance",
+                "description": "Share strategies for work-life balance with colleagues to promote a supportive workplace culture."
+              },
+              {
+                "recommendation": "Participate in Wellness Programs",
+                "description": "Engage in wellness initiatives that promote long-term health and well-being, further reinforcing the work-life balance."
+              }
+            ]
+          },
+          {
+            "Level": "Occasional Imbalance",
+            "score_range": "6-7.9 Points",
+            "key_findings": [
+              {
+                "finding": "Generally Effective at Balancing Responsibilities",
+                "description": "Manages both personal and work life well, though some busy periods may affect personal time."
+              },
+              {
+                "finding": "Moderate Boundary Setting",
+                "description": "Occasionally allows work to spill into personal time but is usually able to regain control."
+              },
+              {
+                "finding": "Responsive to Work Demands ",
+                "description": "Willing to adjust personal plans when work emergencies arise, balancing commitments."
+              },
+              {
+                "finding": "Adequate Self-Care Practice  ",
+                "description": "Participates in self-care activities, though may occasionally sacrifice them during high-stress periods."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Strengthen Boundary Setting",
+                "description": "Reaffirm personal time boundaries, particularly during busy periods, to minimize work-life conflicts."
+              },
+              {
+                "recommendation": "Prioritize Self-Care",
+                "description": "Ensure regular participation in self-care practices to mitigate the impact of stressful work periods."
+              },
+              {
+                "recommendation": "Practice Mindfulness",
+                "description": "Consider mindfulness exercises to enhance focus and manage occasional stress more effectively"
+              }
+            ]
+          },
+          {
+            "Level": "Regular Difficulty (4-5.9 Points)",
+            "score_range": "4-5.9 Points",
+            "key_findings": [
+              {
+                "finding": "Challenges with Setting Boundaries",
+                "description": "Often finds work encroaching on personal time, making it difficult to fully disconnect from work."
+              },
+
+              {
+                "finding": "Frequent Personal Time Sacrifice  ",
+                "description": "Regularly adjusts personal plans due to work demands, leading to reduced time with family and friends."
+              },
+              {
+                "finding": " Impact on Personal Well-being ",
+                "description": "Experiences a noticeable impact on personal well-being, with work stress affecting energy levels and mood."
+              },
+              {
+                "finding": "Limited Self-Care Engagement  ",
+                "description": "Rarely engages in self-care activities, which may contribute to feelings of burnout or fatigue."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Reinforce Personal Boundaries",
+                "description": "Set clear boundaries around work hours, and communicate these to colleagues to reduce personal time intrusions."
+              },
+              ": ",
+              {
+                "recommendation": "Schedule Personal Time",
+                "description": "Plan regular self-care activities and leisure time as non-negotiable commitments to support well-being."
+              },
+
+              {
+                "recommendation": "Seek Support from Management",
+                "description": "Discuss work-life balance needs with management to explore solutions for minimizing work’s impact on personal life."
+              }
+            ]
+          },
+          {
+            "Level": "Poor Work-Life Balance ",
+            "score_range": "Below 4 Points",
+            "key_findings": [
+              {
+                "finding": "Work Dominates Personal Time  ",
+                "description": "Consistently prioritizes work over personal life, with minimal time dedicated to family, friends, or self-care."
+              },
+
+              {
+                "finding": "Constantly Available for Work  ",
+                "description": "Struggles to disconnect from work, even during evenings, weekends, or holidays, leading to ongoing stress."
+              },
+
+              {
+                "finding": "Significant Impact on Health  ",
+                "description": "Regularly experiences stress-related symptoms, such as fatigue, irritability, or lack of motivation in personal activities."
+              },
+
+              {
+                "finding": "Minimal Engagement in Personal Activities  ",
+                "description": "Engages in few, if any, self-care or leisure activities due to constant work demands."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Set Firm Boundaries",
+                "description": "Begin by establishing specific work hours and communicating them clearly to colleagues and superiors."
+              },
+
+              {
+                "recommendation": "Focus on Personal Well-being",
+                "description": "Focus on Personal Well-being: Prioritize self-care as an essential part of daily routines to improve mental and physical health."
+              },
+              {
+                "recommendation": "Utilize Vacation Time",
+                "description": "Plan regular breaks and fully disconnect from work to recharge and prevent burnout."
+              },
+
+              {
+                "recommendation": "Consider Time Management Training",
+                "description": "Explore time management resources or coaching to improve efficiency and create more space for personal activities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "Stress Management Report",
+        "scoring_breakdown": {
+          "8-10_Points": "Rarely experiences stress, managing high-pressure situations with calm and efficiency.",
+          "6-7.9_Points": "Occasional stress in high-pressure situations but usually manages it well.",
+          "4-5.9_Points": "Regular stress due to workload or crises, impacting emotional well-being and work performance.",
+          "Below_4_Points": "Significant stress that frequently affects performance and overall mental health."
+        },
+        "performance_levels": [
+          {
+            "Level": "Minimal Stress (8-10 Points)",
+            "score_range": "8-10 Points",
+            "key_findings": [
+              {
+                "finding": "Calm Under Pressure  ",
+                "description": "Approaches high-pressure situations with composure and clear-headedness, rarely feeling overwhelmed."
+              },
+              {
+                "finding": "Effective Stress Management Techniques  ",
+                "description": "Utilizes strategies such as deep breathing, prioritization, and delegation to manage stress proactively."
+              },
+
+              {
+                "finding": "High Resilience  ",
+                "description": "Displays resilience and adaptability, with minimal impact on emotional well-being or productivity."
+              },
+
+              {
+                "finding": "Positive Impact on Team  ",
+                "description": "Maintains a calm demeanor, which positively influences team morale and helps create a supportive environment."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Continue Practicing Resilience Strategies",
+                "description": "Maintain regular stress-relief practices, such as exercise, mindfulness, and adequate rest."
+              },
+
+              {
+                "recommendation": "Encourage Team Resilience",
+                "description": "Share stress management techniques with the team to foster a calm and productive workplace."
+              },
+              { "recommendation": "", "description": "" },
+              "Engage in Professional Development: Explore advanced workshops on resilience and emotional intelligence to further strengthen stress management skills."
+            ]
+          },
+          {
+            "Level": "Occasional Stress",
+            "score_range": "6-7.9 Points",
+            "key_findings": [
+              {
+                "finding": "Generally Manages Stress Well  ",
+                "description": "Experiences occasional stress in high-pressure situations but typically recovers quickly and maintains focus."
+              },
+
+              {
+                "finding": "Moderate Impact on Well-being  ",
+                "description": "Stress may lead to brief impacts on emotional well-being, such as mild anxiety or irritability, but does not significantly disrupt work."
+              },
+
+              {
+                "finding": "Responsive to Stress Triggers  ",
+                "description": "Recognizes personal stress triggers and takes steps to manage them, such as short breaks or time-blocking techniques."
+              },
+
+              {
+                "finding": "Sustains Productivity  ",
+                "description": "Remains productive and efficient despite occasional stress, with minimal long-term effects on performance."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Strengthen Stress Management Techniques",
+                "description": "Consider incorporating additional relaxation methods, such as guided meditation, to further mitigate stress."
+              },
+
+              {
+                "recommendation": "Identify Stress Triggers",
+                "description": "Develop strategies to address specific triggers, helping to minimize their impact on daily routines."
+              },
+
+              {
+                "recommendation": "Balance Workload",
+                "description": "Evaluate workload regularly to ensure that responsibilities are manageable, especially during peak periods."
+              }
+            ]
+          },
+          {
+            "Level": "Regular Stress",
+            "score_range": "4-5.9 Points",
+            "key_findings": [
+              {
+                "finding": "Frequent Exposure to Stress  ",
+                "description": "Regularly experiences stress due to workload or high-pressure situations, impacting focus and emotional well-being."
+              },
+
+              {
+                "finding": "Impact on Emotional Health  ",
+                "description": "Stress often affects mood, leading to symptoms such as frustration, anxiety, or fatigue, which may influence work interactions."
+              },
+
+              {
+                "finding": "Productivity Disruptions  ",
+                "description": "Experiences reductions in productivity during stressful periods, with potential effects on work quality and consistency."
+              },
+
+              {
+                "finding": "Limited Coping Strategies  ",
+                "description": "May rely on basic coping mechanisms but could benefit from more structured approaches to stress management."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Develop a Structured Stress Relief Plan",
+                "description": "Engage in daily relaxation exercises, such as deep breathing or short walks, to improve stress resilience."
+              },
+
+              {
+                "recommendation": "Consider Time Management Training",
+                "description": "Explore time management techniques to help balance workload and reduce stress triggers."
+              },
+
+              {
+                "recommendation": "Seek Support and Guidance",
+                "description": "Consult with a mentor or counselor to build effective stress management strategies and enhance emotional well-being."
+              },
+
+              {
+                "recommendation": "Enhance Work-Life Balance",
+                "description": "Prioritize personal time and self-care to mitigate the effects of work-related stress."
+              }
+            ]
+          },
+          {
+            "Level": "Significant Stress",
+            "score_range": "Below 4 Points",
+            "key_findings": [
+              {
+                "finding": "High Levels of Ongoing Stress  ",
+                "description": "Consistently feels overwhelmed by workload and high-pressure situations, leading to significant emotional strain."
+              },
+
+              {
+                "finding": " Strong Impact on Mental Health ",
+                "description": "Stress frequently affects emotional well-being, with symptoms such as anxiety, irritability, and mood swings, which impact daily functioning."
+              },
+
+              {
+                "finding": "Challenges with Productivity  ",
+                "description": "Often experiences disruptions in focus and efficiency, with stress reducing the ability to meet deadlines and maintain performance standards."
+              },
+
+              {
+                "finding": " Minimal Coping Mechanisms ",
+                "description": "Relies on limited coping strategies, which may exacerbate stress symptoms over time and contribute to burnout."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Seek Professional Support",
+                "description": "Consult with a mental health professional or counselor to develop tailored strategies for managing stress."
+              },
+
+              {
+                "recommendation": "Build a Routine of Self-Care Activities",
+                "description": "Engage in activities like meditation, exercise, or journaling to improve stress resilience and overall well-being."
+              },
+
+              {
+                "recommendation": "Improve Time and Task Management",
+                "description": "Focus on task prioritization and time-blocking to reduce workload-related stress."
+              },
+
+              {
+                "recommendation": "Consider Workplace Adjustments",
+                "description": "Discuss potential adjustments with management, such as flexible work hours, to create a more manageable workload."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "Anxiety Management Report",
+        "scoring_breakdown": {
+          "8-10_Points": "Rarely experiences anxiety at work, making decisions and leading teams with confidence.",
+          "6-7.9_Points": "Occasional anxiety when making high-stakes decisions or facing uncertainty, but still performs well.",
+          "4-5.9_Points": "Regular anxiety affecting leadership, decision-making, or team interactions.",
+          "Below_4_Points": "Significant anxiety that severely impacts decision-making, productivity, and team engagement."
+        },
+        "performance_levels": [
+          {
+            "Level": "Minimal Anxiety",
+            "score_range": "8-10 Points",
+            "key_findings": [
+              {
+                "finding": "Confident in Decision-Making  ",
+                "description": " Approaches high-stakes decisions with a clear mind, rarely experiencing anxiety."
+              },
+
+              {
+                "finding": "Effective Team Engagement  ",
+                "description": "Maintains strong, confident interactions with the team, unaffected by anxiety."
+              },
+
+              {
+                "finding": "High Adaptability to Change  ",
+                "description": "Responds well to unexpected changes or challenges, remaining composed and proactive."
+              },
+
+              {
+                "finding": "Positive Influence on Team  ",
+                "description": "Projects a calm and confident demeanor, which positively impacts team morale and productivity."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Continue Current Practices",
+                "description": "Maintain resilience-building activities, such as mindfulness or physical exercise, to reinforce this level of confidence."
+              },
+
+              {
+                "recommendation": "Promote Team Confidence",
+                "description": "Share strategies for managing work-related anxiety with team members to foster a calm and supportive work environment."
+              },
+
+              {
+                "recommendation": "Engage in Leadership Development",
+                "description": "Explore leadership programs to continue strengthening decision-making and confidence."
+              }
+            ]
+          },
+          {
+            "Level": "Occasional Anxiety",
+            "score_range": "6-7.9 Points",
+            "key_findings": [
+              {
+                "finding": "Generally Confident in High-Stress Situations  ",
+                "description": "Experiences occasional anxiety when making high-stakes decisions but performs well overall."
+              },
+
+              {
+                "finding": "Temporary Impact on Team Interactions  ",
+                "description": "Anxiety may occasionally affect team engagement but does not significantly disrupt interactions."
+              },
+
+              {
+                "finding": "Resilient with Minor Setbacks  ",
+                "description": "Able to handle anxiety in uncertain situations, quickly regaining composure and focus."
+              },
+
+              {
+                "finding": "Consistent Productivity  ",
+                "description": "Maintains productivity, with minimal interruptions due to anxiety."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Enhance Coping Mechanisms",
+                "description": "Consider incorporating quick relaxation techniques, such as deep breathing, during high-stakes situations."
+              },
+              {
+                "recommendation": "Identify Triggers",
+                "description": " Reflect on specific situations that trigger anxiety and develop strategies to address them proactively."
+              },
+              {
+                "recommendation": "Participate in Stress Management Workshops",
+                "description": "Engage in workshops on stress and anxiety management to further build resilience."
+              }
+            ]
+          },
+          {
+            "Level": "Regular Anxiety (4-5.9 Points)",
+            "key_findings": [
+              {
+                "finding": "Frequent Anxiety with Decision-Making  ",
+                "description": " Regularly experiences anxiety when making important decisions, leading to occasional hesitation or second-guessing."
+              },
+
+              {
+                "finding": "Impact on Leadership and Engagement  ",
+                "description": "Anxiety may reduce confidence in team interactions, sometimes impacting the ability to lead effectively."
+              },
+
+              {
+                "finding": "Challenges with Adaptability",
+                "description": "Unexpected changes often trigger anxiety, affecting work focus and productivity."
+              },
+
+              {
+                "finding": "Noticeable Effect on Well-being",
+                "description": "Anxiety may contribute to emotional strain, leading to irritability or fatigue, which can influence work performance."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Develop Structured Anxiety-Management Techniques",
+                "description": " Practice mindfulness or guided relaxation exercises to improve anxiety resilience."
+              },
+              {
+                "recommendation": "Consider Professional Development",
+                "description": "Explore courses or coaching focused on decision-making under pressure to build confidence in high-stakes situations."
+              },
+              {
+                "recommendation": "Seek Support from Peers or Mentors",
+                "description": "Engage in discussions with colleagues or mentors to gain perspectives on managing anxiety in the workplace."
+              },
+
+              {
+                "recommendation": "Practice Delegation",
+                "description": "Share responsibilities with the team to alleviate decision-making pressure and reduce anxiety triggers."
+              }
+            ]
+          },
+          {
+            "Level": "Significant Anxiety ",
+            "score_range": "Below 4 Points",
+            "key_findings": [
+              {
+                "finding": "Persistent Anxiety in the Workplace  ",
+                "description": "Frequently experiences anxiety that significantly impacts confidence in decision-making and team leadership."
+              },
+
+              {
+                "finding": " Difficulty with Team Interactions ",
+                "description": " Anxiety severely affects interactions with the team, leading to reduced engagement and productivity."
+              },
+
+              {
+                "finding": "Low Tolerance for Uncertainty  ",
+                "description": "Struggles to adapt to changes or unexpected challenges, which may result in a notable decline in work performance."
+              },
+
+              {
+                "finding": "Strong Impact on Well-being  ",
+                "description": "Experiences ongoing emotional strain due to workplace anxiety, which may lead to burnout or difficulty in balancing personal and professional life"
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Seek Professional Guidance",
+                "description": "Consider working with a counselor or coach to develop tailored strategies for managing anxiety in the workplace."
+              },
+
+              {
+                "recommendation": "Focus on Self-Care and Stress Relief",
+                "description": "Incorporate daily practices like exercise, meditation, or journaling to improve resilience to anxiety."
+              },
+
+              {
+                "recommendation": "Develop a Support Network",
+                "description": " Engage with trusted colleagues, mentors, or mental health professionals to build a support system for managing workplace anxiety."
+              },
+              {
+                "recommendation": "Utilize Time and Task Management Tools",
+                "description": "Break down complex tasks into smaller steps to reduce feelings of overwhelm and improve decision-making confidence."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Depression",
+        "scoring_breakdown": {
+          "8-10_points": "Rarely feels depressed or lacks motivation; consistently engaged and positive at work.",
+          "6-7.9_points": "Occasionally experiences low motivation or mood swings but manages to stay productive.",
+          "4-5.9_points": "Regular feelings of sadness, low motivation, or emotional exhaustion affecting work performance.",
+          "below_4_points": "Significant depression, with frequent emotional exhaustion and disengagement from work."
+        },
+        "performance_levels": [
+          {
+            "level": "Minimal Depression (8-10 Points)",
+            "score_range": "8-10 Points",
+            "key_findings": [
+              {
+                "finding": "Consistently Positive and Engaged  ",
+                "description": "Rarely feels low or unmotivated, maintaining high levels of engagement with work tasks."
+              },
+
+              {
+                "finding": "Strong Emotional Resilience  ",
+                "description": "Demonstrates a stable and positive outlook, even during challenging situations, with minimal emotional fluctuations."
+              },
+
+              {
+                "finding": "Motivated and Productive  ",
+                "description": "Shows sustained motivation and enthusiasm for work, leading to consistent productivity and focus."
+              },
+
+              {
+                "finding": "Positive Impact on Team",
+                "description": "Displays a positive attitude that contributes to a healthy, supportive work environment, encouraging others to stay engaged."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Maintain Current Well-being Practices",
+                "description": "Continue regular activities that support a positive mindset, such as exercise, hobbies, and connecting with colleagues."
+              },
+              {
+                "recommendation": "Share Positivity with the Team",
+                "description": "Encourage team members by sharing techniques for maintaining motivation and emotional well-being."
+              },
+              {
+                "recommendation": "Participate in Professional Development",
+                "description": "Engage in workshops or courses focused on emotional resilience and leadership to reinforce strengths."
+              }
+            ]
+          },
+          {
+            "level": "Occasional Low Motivation",
+            "score_range": "6-7.9 Points",
+            "key_findings": [
+              {
+                "finding": "Generally Positive with Occasional Mood Swings",
+                "description": "Experiences occasional low moods or fluctuations but maintains productivity and engagement."
+              },
+              {
+                "finding": "Temporary Impact on Work Engagement",
+                "description": "May occasionally feel less motivated, especially during stressful periods, but is able to regain focus quickly."
+              },
+              {
+                "finding": "Responsive to Emotional Triggers",
+                "description": "Recognizes and addresses low moods effectively, with minimal long-term impact on performance."
+              },
+              {
+                "finding": "Sustains Motivation Overall",
+                "description": "Despite occasional dips in mood, Mr. Suresh maintains motivation and completes tasks on time."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Enhance Self-Care Practices",
+                "description": "Incorporate more regular self-care activities, such as relaxation exercises or mindfulness, to mitigate mood fluctuations."
+              },
+              {
+                "recommendation": "Set Short-Term Goals",
+                "description": " Establish small, achievable goals to stay motivated, especially during challenging times."
+              },
+              {
+                "recommendation": "Develop a Support Network",
+                "description": "Connect with trusted colleagues or friends for support during low periods to reinforce resilience."
+              }
+            ]
+          },
+          {
+            "level": "Regular Low Motivation",
+            "score_range": "4-5.9 Points",
+            "key_findings": [
+              {
+                "finding": "Frequent Feelings of Sadness or Exhaustion",
+                "description": "Regularly experiences low moods or emotional fatigue, which can impact work engagement and motivation."
+              },
+              {
+                "finding": "Reduced Productivity  ",
+                "description": "Often struggles to stay motivated, leading to reduced productivity or difficulty completing tasks on time."
+              },
+              {
+                "finding": "Challenges with Emotional Resilience  ",
+                "description": "Finds it challenging to maintain a positive outlook during high-stress periods, which may affect work performance."
+              },
+              {
+                "finding": "Impact on Interpersonal Relationships",
+                "description": "Low motivation and mood may occasionally influence interactions with colleagues, reducing team cohesion."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Develop an Emotional Resilience Plan",
+                "description": "Engage in activities like meditation, journaling, or exercise to build emotional resilience and improve mood."
+              },
+
+              {
+                "recommendation": "Seek Supportive Resources",
+                "description": "Consider counseling or coaching to explore strategies for managing low motivation and improving well-being."
+              },
+              {
+                "recommendation": "Practice Positive Reinforcement",
+                "description": "Focus on recognizing personal accomplishments and set daily goals to foster a sense of achievement."
+              },
+              {
+                "recommendation": "Encourage Open Communication",
+                "description": "Discuss emotional well-being with a mentor or supervisor to ensure adequate support and understanding at work."
+              }
+            ]
+          },
+          {
+            "level": "Significant Depression",
+            "score_range": "Below 4 Points",
+            "key_findings": [
+              {
+                "finding": "Persistent Low Mood and Emotional Exhaustion",
+                "description": "Frequently experiences feelings of sadness, low energy, and emotional fatigue, significantly impacting work engagement."
+              },
+              {
+                "finding": "Low Motivation and Productivity  ",
+                "description": "Regularly lacks motivation to complete tasks, leading to noticeable declines in productivity and focus."
+              },
+              {
+                "finding": "Strong Impact on Mental Well-being  ",
+                "description": "Feels emotionally overwhelmed, which affects personal well-being and may result in physical symptoms like fatigue or irritability."
+              },
+              {
+                "finding": "Disengagement from Work  ",
+                "description": "May feel disconnected from work tasks and team members, which can lead to reduced job satisfaction and performance."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Seek Professional Guidance",
+                "description": "Consider working with a counselor or mental health professional to develop coping strategies for managing depression."
+              },
+              {
+                "recommendation": "Incorporate Self-Care Routines",
+                "description": "Begin daily activities focused on self-care, such as light physical activity, relaxation exercises, or time in nature."
+              },
+              {
+                "recommendation": "Focus on Small, Achievable Goals",
+                "description": "Set short-term goals to gradually build motivation and re-engage with work tasks."
+              },
+              {
+                "recommendation": "Utilize Workplace Support Systems",
+                "description": "Reach out to HR or management to discuss potential accommodations or flexible work arrangements to support recovery."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Coping Mechanisms",
+        "scoring_breakdown": {
+          "8-10_points": "Utilizes healthy coping mechanisms for stress, such as delegation, relaxation techniques, and proactive problem-solving.",
+          "6-7.9_points": "Occasionally uses less effective coping mechanisms but generally manages stress well.",
+          "4-5.9_points": "Regular use of unhealthy coping strategies (e.g., avoidance, procrastination), leading to stress build-up.",
+          "below_4_points": "Poor coping mechanisms, with stress frequently overwhelming and little recovery from setbacks."
+        },
+        "performance_levels": [
+          {
+            "level": "Healthy Coping",
+            "score_range": "8-10 Points",
+            "key_findings": [
+              {
+                "finding": "Consistent Use of Positive Coping Strategies  ",
+                "description": "Regularly utilizes techniques such as task delegation, relaxation practices, and proactive planning to manage stress effectively."
+              },
+
+              {
+                "finding": "Resilience to Setbacks  ",
+                "description": "Shows a strong ability to recover from setbacks, using constructive methods to adapt to challenges."
+              },
+              {
+                "finding": "Problem-Solving Approach  ",
+                "description": "Handles difficult situations with a focus on solutions, remaining calm and methodical under pressure."
+              },
+
+              {
+                "finding": "Positive Influence on Team  ",
+                "description": "Maintains a supportive environment by modeling healthy stress management techniques, encouraging team members to do the same."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Continue Positive Practices",
+                "description": "Maintain a regular routine of stress-relief practices, such as exercise, mindfulness, or time management techniques."
+              },
+
+              {
+                "recommendation": "Mentor Team Members",
+                "description": "Share coping strategies with the team to promote a positive, resilient workplace culture."
+              },
+              {
+                "recommendation": "Expand Coping Toolbox",
+                "description": "Explore new relaxation techniques, such as progressive muscle relaxation, to further enhance resilience."
+              }
+            ]
+          },
+          {
+            "level": "Generally Healthy Coping",
+            "score_range": "6-7.9 Points",
+            "key_findings": [
+              {
+                "finding": "Mostly Uses Healthy Coping Mechanisms  ",
+                "description": "Primarily relies on effective stress-management strategies, though occasionally uses less effective methods like working long hours."
+              },
+              {
+                "finding": "Resilient with Occasional Challenges  ",
+                "description": "Generally bounces back from setbacks well, but may experience brief periods of stress build-up."
+              },
+
+              {
+                "finding": "Problem-Focused Approach",
+                "description": "Tackles stressors directly, though may sometimes neglect self-care during high-stress periods."
+              },
+
+              {
+                "finding": "Minor Impact on Well-being",
+                "description": "Maintains good overall well-being, with minor impacts from stress during particularly demanding times."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Enhance Self-Care Routines",
+                "description": "Incorporate regular self-care activities, such as daily breaks or mindfulness exercises, to minimize the risk of stress build-up."
+              },
+              {
+                "recommendation": "Identify and Address Triggers",
+                "description": "Reflect on specific stress triggers and develop additional strategies for addressing them proactively."
+              },
+
+              {
+                "recommendation": "Diversify Coping Techniques",
+                "description": "Experiment with new relaxation practices, such as meditation or journaling, to further strengthen coping mechanisms."
+              }
+            ]
+          },
+          {
+            "level": "Unhealthy Coping Patterns (4-5.9 Points)",
+            "key_findings": [
+              {
+                "finding": "Frequent Use of Ineffective Strategies",
+                "description": "Regularly relies on unhealthy coping mechanisms, such as avoidance, procrastination, or working excessively, leading to stress accumulation."
+              },
+              {
+                "finding": "Challenges with Stress Resilience",
+                "description": "Experiences difficulty recovering from setbacks, with stress often impacting focus and productivity."
+              },
+              {
+                "finding": "Strain on Well-being",
+                "description": "Tends to experience emotional or physical symptoms due to stress, which may affect interactions with colleagues and overall performance."
+              },
+              {
+                "finding": "Limited Use of Positive Coping Techniques  ",
+                "description": "Occasionally uses healthy strategies, but often reverts to less effective habits during high-stress periods."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Develop a Structured Coping Plan",
+                "description": "Create a routine with daily relaxation practices, such as breathing exercises or light physical activity, to manage stress."
+              },
+
+              {
+                "recommendation": "Engage in Stress Management Training",
+                "description": "Consider workshops on healthy coping skills to replace avoidance or procrastination with positive strategies."
+              },
+              {
+                "recommendation": "Practice Mindful Task Management",
+                "description": "Break down tasks into smaller steps to reduce feelings of overwhelm and improve focus."
+              },
+
+              {
+                "recommendation": "Seek Support for Accountability",
+                "description": "Partner with a colleague or mentor to encourage and monitor progress in using healthier coping methods."
+              }
+            ]
+          },
+          {
+            "level": "Poor Coping Mechanisms ",
+           "score_range": "Below 4 Points",
+            "key_findings": [
+              {
+                "finding": " Reliance on Negative Coping Strategies ",
+                "description": "Frequently employs avoidance, distraction, or other unproductive methods, which lead to increased stress and overwhelm."
+              },
+              {
+                "finding": "Significant Impact on Work Performance",
+                "description": "Stress regularly affects productivity and focus, making it difficult to meet deadlines and complete tasks effectively."
+              },
+              {
+                "finding": "Difficulty with Resilience ",
+                "description": "Struggles to recover from setbacks, with stress having a noticeable impact on emotional well-being and daily functioning."
+              },
+              {
+                "finding": "Limited Recovery from Stress",
+                "description": "Lacks effective tools for managing stress, which leads to a cycle of stress build-up and little relief."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Seek Professional Guidance",
+                "description": "Work with a counselor or coach to develop personalized strategies for managing stress and breaking negative coping habits."
+              },
+              {
+                "recommendation": "Start Small with Positive Changes",
+                "description": "Begin with basic stress-relief practices, such as setting aside time each day for self-care or breathing exercises, to build resilience."
+              },
+              {
+                "recommendation": "Incorporate Regular Physical Activity",
+                "description": "Engage in physical activities, such as walking or yoga, to improve both mental and physical well-being."
+              },
+              {
+                "recommendation": "Build a Support Network",
+                "description": "Connect with colleagues, friends, or mentors who can offer encouragement and perspective, helping to reinforce positive coping mechanisms."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Coping Mechanisms",
+        "scoring_breakdown": {
+          "8-10_points": "Rarely experiences physical health issues related to stress, maintaining good health and energy levels.",
+          "6-7.9_points": "Occasional health issues (e.g., fatigue or headaches), but they are managed and do not heavily affect work.",
+          "4-5.9_points": "Regular physical health symptoms, such as fatigue or pain, due to job stress, affecting productivity.",
+          "below_4_points": "Significant physical health issues that frequently impact work and overall well-being."
+        },
+        "performance_levels": [
+          {
+            "level": "Minimal Physical Health Issues",
+            "score_range": "8-10 Points",
+            "key_findings": [
+              {
+                "finding": "High Energy and Stamina  ",
+                "description": "Rarely experiences fatigue or physical symptoms related to stress, maintaining a strong energy level throughout the day."
+              },
+              {
+                "finding": "Good Physical Health  ",
+                "description": "Exhibits minimal health concerns, with little impact from work-related stress on physical well-being."
+              },
+              {
+                "finding": "Consistent Productivity",
+                "description": "Maintains productivity and focus without disruption from physical health issues, contributing to overall performance."
+              },
+              {
+                "finding": "Positive Lifestyle Habits",
+                "description": "Engages in regular activities that promote physical well-being, such as exercise, balanced nutrition, and adequate sleep."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Maintain Current Health Practices",
+                "description": "Continue regular physical activities and self-care routines that support long-term health."
+              },
+
+              {
+                "recommendation": "Encourage a Healthy Work Environment",
+                "description": "Promote healthy lifestyle habits among colleagues, creating a supportive team environment."
+              },
+
+              {
+                "recommendation": "Participate in Wellness Programs",
+                "description": "Explore any available workplace wellness programs to reinforce physical health and well-being."
+              }
+            ]
+          },
+          {
+            "level": "Occasional Health Issues",
+            "score_range": "6-7.9 Points",
+            "key_findings": [
+              {
+                "finding": "Moderate Physical Health Symptoms",
+                "description": "Occasionally experiences minor issues, such as fatigue or headaches, which are managed well and rarely impact work."
+              },
+              {
+                "finding": "Responsive to Health Needs",
+                "description": "Takes appropriate measures, such as short breaks or hydration, to alleviate physical symptoms when they arise."
+              },
+              {
+                "finding": "Minimal Impact on Productivity",
+                "description": "Experiences occasional health-related disruptions, but these are infrequent and short-lived."
+              },
+              {
+                "finding": "Good Energy Management",
+                "description": " Generally maintains energy levels, though some tasks may feel more demanding during high-stress periods."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Enhance Self-Care Practices",
+                "description": "Incorporate regular breaks, stretching exercises, and ergonomic adjustments to prevent physical discomfort."
+              },
+              {
+                "recommendation": "Monitor Health Patterns",
+                "description": "Track symptoms to identify potential patterns and take proactive measures to minimize their recurrence."
+              },
+              {
+                "recommendation": "Practice Stress Management Techniques",
+                "description": "Engage in stress-relief activities like deep breathing or yoga to reduce the frequency of physical symptoms related to job stress."
+              }
+            ]
+          },
+          {
+            "level": "Regular Health Symptoms",
+            "score_range": "4-5.9 Points",
+            "key_findings": [
+              {
+                "finding": "Frequent Physical Health Issues",
+                "description": "Often experiences symptoms such as fatigue, muscle tension, or headaches, likely due to job-related stress."
+              },
+              {
+                "finding": " Impact on Work Performance ",
+                "description": "Physical health concerns sometimes disrupt focus and productivity, leading to decreased performance on demanding tasks."
+              },
+              {
+                "finding": "Challenges with Energy Levels",
+                "description": "Experiences low energy at times, which can affect motivation and the ability to complete tasks efficiently."
+              },
+              {
+                "finding": "Limited Health Management",
+                "description": " May engage in some health-related activities but could benefit from more structured approaches to managing physical well-being."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Develop a Physical Wellness Routine",
+                "description": " Incorporate daily wellness practices, such as regular stretching, walking breaks, or ergonomic adjustments to reduce discomfort."
+              },
+              {
+                "recommendation": "Seek Professional Advice if Needed",
+                "description": "Consider consulting a healthcare provider to assess and address ongoing physical symptoms."
+              },
+              {
+                "recommendation": "Focus on Stress Management",
+                "description": "Prioritize stress-relief techniques, such as mindfulness or relaxation exercises, to mitigate the physical effects of stress."
+              },
+              {
+                "recommendation": "Plan for Adequate Rest",
+                "description": "Ensure sufficient rest and sleep each night to aid recovery and improve energy levels."
+              }
+            ]
+          },
+          {
+            "level": "Significant Health Issues",
+            "score_range": "Below 4 Points",
+            "key_findings": [
+              {
+                "finding": "Persistent Health Symptoms  ",
+                "description": "Frequently experiences severe physical symptoms, such as chronic pain, fatigue, or recurring health issues, which significantly impact work."
+              },
+              {
+                "finding": " Strong Impact on Productivity ",
+                "description": "Health concerns regularly disrupt work performance, leading to decreased productivity and job satisfaction."
+              },
+              {
+                "finding": "Low Energy and Resilience  ",
+                "description": "Struggles with low energy levels, often feeling physically exhausted, which affects both personal and professional life."
+              },
+              {
+                "finding": "Minimal Health Management Strategies  ",
+                "description": "Lacks effective methods for addressing physical health concerns, which may contribute to ongoing symptoms and reduced well-being."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Seek Medical Consultation",
+                "description": "Consult a healthcare professional to explore potential treatments or therapies for ongoing physical symptoms."
+              },
+              {
+                "recommendation": "Implement a Structured Health Routine",
+                "description": "Establish a routine focused on daily physical wellness, such as light exercise, hydration, and stretching."
+              },
+              {
+                "recommendation": "Engage in Stress-Reduction Activities",
+                "description": "Incorporate regular stress-management techniques, such as yoga or meditation, to improve physical resilience."
+              },
+              {
+                "recommendation": "Consider Workplace Adjustments",
+                "description": "Discuss with management the possibility of making adjustments, like ergonomic equipment or flexible hours, to support physical well-being."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Physical Health Issues Report",
+        "scoring_breakdown": {
+          "8-10_Points": "Rarely experiences physical health issues related to stress, maintaining good health and energy levels.",
+          "6-7.9_Points": "Occasional health issues (e.g., fatigue or headaches), but they are managed and do not heavily affect work.",
+          "4-5.9_Points": "Regular physical health symptoms, such as fatigue or pain, due to job stress, affecting productivity.",
+          "Below_4_Points": "Significant physical health issues that frequently impact work and overall well-being."
+        },
+        "performance_levels": [
+          {
+            "level": "Minimal Physical Health Issues",
+            "score_range": "8-10 Points",
+            "key_findings": [
+              {
+                "finding": "High Energy and Stamina",
+                "description": "Rarely experiences fatigue or physical symptoms related to stress, maintaining a strong energy level throughout the day."
+              },
+              {
+                "finding": "Good Physical Health",
+                "description": "Exhibits minimal health concerns, with little impact from work-related stress on physical well-being."
+              },
+              {
+                "finding": "Consistent Productivity",
+                "description": "Maintains productivity and focus without disruption from physical health issues, contributing to overall performance."
+              },
+              {
+                "finding": " Positive Lifestyle Habits ",
+                "description": "Engages in regular activities that promote physical well-being, such as exercise, balanced nutrition, and adequate sleep."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Maintain Current Health Practices",
+                "description": "Continue regular physical activities and self-care routines that support long-term health."
+              },
+              {
+                "recommendation": "Encourage a Healthy Work Environment",
+                "description": "Promote healthy lifestyle habits among colleagues, creating a supportive team environment."
+              },
+
+              {
+                "recommendation": "Participate in Wellness Programs",
+                "description": " Explore any available workplace wellness programs to reinforce physical health and well-being."
+              }
+            ]
+          },
+          {
+            "level": "Occasional Health Issues",
+            "score_range": "6-7.9 Points",
+            "key_findings": [
+              {
+                "finding": "Moderate Physical Health Symptoms  ",
+                "description": "Occasionally experiences minor issues, such as fatigue or headaches, which are managed well and rarely impact work."
+              },
+              {
+                "finding": " Responsive to Health Needs ",
+                "description": " Takes appropriate measures, such as short breaks or hydration, to alleviate physical symptoms when they arise."
+              },
+
+              {
+                "finding": "Minimal Impact on Productivity  ",
+                "description": "Experiences occasional health-related disruptions, but these are infrequent and short-lived."
+              },
+              {
+                "finding": " Good Energy Management ",
+                "description": "Generally maintains energy levels, though some tasks may feel more demanding during high-stress periods."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Enhance Self-Care Practices",
+                "description": " Incorporate regular breaks, stretching exercises, and ergonomic adjustments to prevent physical discomfort."
+              },
+
+              {
+                "recommendation": "Monitor Health Patterns",
+                "description": "Track symptoms to identify potential patterns and take proactive measures to minimize their recurrence."
+              },
+
+              {
+                "recommendation": "Practice Stress Management Techniques",
+                "description": "Engage in stress-relief activities like deep breathing or yoga to reduce the frequency of physical symptoms related to job stress."
+              }
+            ]
+          },
+          {
+            "level": "Regular Health Symptoms",
+            "score_range": "4-5.9 Points",
+            "key_findings": [
+              {
+                "finding": "Frequent Physical Health Issues  ",
+                "description": "Often experiences symptoms such as fatigue, muscle tension, or headaches, likely due to job-related stress"
+              },
+
+              {
+                "finding": "Impact on Work Performance  ",
+                "description": "Physical health concerns sometimes disrupt focus and productivity, leading to decreased performance on demanding tasks."
+              },
+
+              {
+                "finding": "Challenges with Energy Levels  ",
+                "description": "Experiences low energy at times, which can affect motivation and the ability to complete tasks efficiently"
+              },
+
+              {
+                "finding": "Limited Health Management  ",
+                "description": "May engage in some health-related activities but could benefit from more structured approaches to managing physical well-being."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Develop a Physical Wellness Routine",
+                "description": "Incorporate daily wellness practices, such as regular stretching, walking breaks, or ergonomic adjustments to reduce discomfort."
+              },
+
+              {
+                "recommendation": "Seek Professional Advice if Needed",
+                "description": "Consider consulting a healthcare provider to assess and address ongoing physical symptoms."
+              },
+
+              {
+                "recommendation": "Focus on Stress Management",
+                "description": "Prioritize stress-relief techniques, such as mindfulness or relaxation exercises, to mitigate the physical effects of stress."
+              },
+
+              {
+                "recommendation": "Plan for Adequate Rest",
+                "description": "Ensure sufficient rest and sleep each night to aid recovery and improve energy levels."
+              }
+            ]
+          },
+          {
+            "level": "Significant Health Issues",
+            "score_range": "Below 4 Points",
+            "key_findings": [
+              {
+                "finding": " Persistent Health Symptoms ",
+                "description": "Frequently experiences severe physical symptoms, such as chronic pain, fatigue, or recurring health issues, which significantly impact work."
+              },
+
+              {
+                "finding": "Strong Impact on Productivity  ",
+                "description": "Health concerns regularly disrupt work performance, leading to decreased productivity and job satisfaction."
+              },
+
+              {
+                "finding": " Low Energy and Resilience ",
+                "description": " Struggles with low energy levels, often feeling physically exhausted, which affects both personal and professional life."
+              },
+
+              {
+                "finding": "Minimal Health Management Strategies  ",
+                "description": "Lacks effective methods for addressing physical health concerns, which may contribute to ongoing symptoms and reduced well-being."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Seek Medical Consultation",
+                "description": "Consult a healthcare professional to explore potential treatments or therapies for ongoing physical symptoms."
+              },
+
+              {
+                "recommendation": "Implement a Structured Health Routine",
+                "description": " Establish a routine focused on daily physical wellness, such as light exercise, hydration, and stretching."
+              },
+
+              {
+                "recommendation": "Engage in Stress-Reduction Activities",
+                "description": "Incorporate regular stress-management techniques, such as yoga or meditation, to improve physical resilience."
+              },
+
+              {
+                "recommendation": "Consider Workplace Adjustments",
+                "description": "Discuss with management the possibility of making adjustments, like ergonomic equipment or flexible hours, to support physical well-being."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Financial Stress ",
+        "scoring_breakdown": {
+          "8-10_Points": "Rarely experiences financial stress, confidently managing both personal finances and job responsibilities. ",
+          "6-7.9_Points": "Occasional financial stress but manages to balance personal finances with work demands. ",
+          "4-5.9_Points": "Regular financial stress impacting work focus and job performance.",
+          "Below_4_Points": "Significant financial stress, frequently disrupting work and causing anxiety. "
+        },
+        "performance_levels": [
+          {
+            "level": "Minimal Financial Stress ",
+            "score_range": "8-10 Points",
+            "key_findings": [
+              {
+                "finding": "Confident Financial Management",
+                "description": "Rarely experiences stress related to personal finances, maintaining a balanced approach to both financial responsibilities and job performance."
+              },
+              {
+                "finding": "Positive Financial Well-being",
+                "description": "Demonstrates strong budgeting and financial planning skills, leading to a sense of security and control."
+              },
+              {
+                "finding": "Uninterrupted Focus on Work",
+                "description": "Financial stability allows full engagement in work responsibilities, with minimal distractions."
+              },
+              {
+                "finding": " Proactive Financial Planning ",
+                "description": "Takes steps to manage financial goals, including savings and investments, contributing to long-term security."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Maintain Current Financial Habits",
+                "description": "Continue using effective budgeting and planning strategies to sustain this level of financial confidence"
+              },
+              {
+                "recommendation": "Explore Financial Growth Opportunities",
+                "description": "Consider additional financial planning or investment opportunities for future growth."
+              },
+              {
+                "recommendation": "Promote Financial Wellness",
+                "description": "Share budgeting or financial planning techniques with colleagues to encourage a supportive work culture"
+              }
+            ]
+          },
+          {
+            "level": "Occasional Financial Stress ",
+            "score_range": "6-7.9 Points",
+            "key_findings": [
+              {
+                "finding": "Balanced Approach to Finances",
+                "description": "Occasionally experiences financial stress due to unplanned expenses or financial goals, but manages these situations effectively"
+              },
+              {
+                "finding": "Moderate Impact on Focus",
+                "description": "Financial concerns may occasionally impact work focus, but they do not significantly disrupt productivity."
+              },
+
+              {
+                "finding": "Responsive to Financial Changes ",
+                "description": "Takes a proactive approach when financial issues arise, adjusting budgets or goals as needed."
+              },
+              {
+                "finding": "General Financial Stability",
+                "description": "Maintains financial security overall, though some challenges may arise during high-stress periods or unforeseen expenses."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Strengthen Financial Planning",
+                "description": "Establish an emergency fund or additional savings to reduce stress from unexpected expenses"
+              },
+
+              {
+                "recommendation": "Enhance Budgeting Techniques",
+                "description": "Regularly review personal finances and adjust as needed to maintain financial stability."
+              },
+
+              {
+                "recommendation": "Practice Mindful Spending",
+                "description": "Focus on aligning financial decisions with long-term goals to minimize stress during high-pressure periods."
+              }
+            ]
+          },
+          {
+            "level": ": Regular Financial Stress ",
+            "score_range": "4-5.9 Points",
+            "key_findings": [
+              {
+                "finding": "Frequent Financial Concerns",
+                "description": "Regularly experiences financial stress, which may be due to budgeting challenges, debt, or other financial pressures."
+              },
+
+              {
+                "finding": "Impact on Work Performance",
+                "description": "Financial concerns occasionally distract from work tasks, affecting focus and productivity during demanding periods."
+              },
+
+              {
+                "finding": "Challenges with Financial Management",
+                "description": "Struggles to balance financial obligations with work responsibilities, leading to ongoing stress."
+              },
+
+              {
+                "finding": "Noticeable Effect on Well-being",
+                "description": "Financial worries can affect overall well-being, leading to increased anxiety and reduced job satisfaction."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Develop a Structured Financial Plan",
+                "description": "Create a detailed budget to address debt and prioritize financial goals, reducing stress and improving confidence"
+              },
+
+              {
+                "recommendation": "Seek Financial Guidance",
+                "description": "Consider consulting a financial advisor to explore personalized strategies for managing finances effectively."
+              },
+
+              {
+                "recommendation": "Focus on Building a Financial Cushion",
+                "description": "Establish savings goals to create a buffer for unexpected costs, minimizing the impact on daily life."
+              },
+
+              {
+                "recommendation": "Incorporate Stress-Relief Practices",
+                "description": "Engage in relaxation exercises to alleviate financial-related stress and enhance focus at work"
+              }
+            ]
+          },
+          {
+            "level": "Significant Financial Stress ",
+            "score_range": "Below 4 Points",
+            "key_findings": [
+              {
+                "finding": "Persistent Financial Worries",
+                "description": "Frequently experiences high levels of financial stress, impacting both personal well-being and work performance."
+              },
+
+              {
+                "finding": "Strong Impact on Job Performance ",
+                "description": "Financial stress regularly interferes with focus and productivity, leading to a notable decrease in work efficiency."
+              },
+
+              {
+                "finding": "Difficulty Managing Finances",
+                "description": "Faces challenges with budgeting or financial planning, contributing to ongoing stress and potential financial instability."
+              },
+
+              {
+                "finding": "Emotional and Physical Impact ",
+                "description": "Financial concerns may cause significant anxiety, affecting mental health and overall quality of life"
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Seek Professional Financial Support",
+                "description": "Consult a financial counselor or advisor to develop a personalized budget and financial recovery plan"
+              },
+
+              {
+                "recommendation": "Set Immediate Financial Goals",
+                "description": "Focus on short-term goals, such as reducing debt or establishing a savings fund, to build financial stability."
+              },
+
+              {
+                "recommendation": "Implement Stress-Reduction Techniques",
+                "description": "Incorporate stress management practices, such as mindfulness or physical activity, to cope with financial anxiety."
+              },
+
+              {
+                "recommendation": "Utilize Workplace Resources",
+                "description": "Explore any available workplace programs related to financial wellness or employee assistance to gain additional support."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Gender Equality and Inclusivity  ",
+        "scoring_breakdown": {
+          "8-10_Points": "Actively ensures gender equality and inclusivity in the workplace, promoting equal opportunities for all.",
+          "6-7.9_Points": "Generally supports gender equality but may have areas for improvement.",
+          "4-5.9_Points": "Some gender inclusivity issues exist, with limited focus on equality in hiring, promotions, or team dynamics.",
+          "Below_4_Points": "Significant challenges in gender inclusivity, with gender inequality frequently observed in work processes."
+        },
+        "performance_levels": [
+          {
+            "level": "Active Promoter of Equality ",
+            "score_range": "8-10 Points",
+            "key_findings": [
+              {
+                "finding": "Proactive in Promoting Inclusivity",
+                "description": "Actively ensures equal opportunities in hiring, promotions, and professional development for all team members."
+              },
+              {
+                "finding": "Supportive of Diversity Initiatives",
+                "description": "Regularly participates in or leads initiatives that encourage gender inclusivity and celebrate diversity."
+              },
+              {
+                "finding": "Fair and Balanced Team Dynamics",
+                "description": "Fosters a team environment where everyone feels respected and valued, regardless of gender."
+              },
+              {
+                "finding": "Strong Role Model for Equality",
+                "description": "Demonstrates behaviors that reinforce gender equality, setting a positive example for the team."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Continue Current Inclusivity Efforts",
+                "description": "Maintain focus on diversity and inclusion, encouraging team discussions and continuous learning on these topics."
+              },
+              {
+                "recommendation": "Mentor Others in Inclusivity Practices",
+                "description": "Share best practices in gender equality with other managers to help promote a cohesive, inclusive culture."
+              },
+              {
+                "recommendation": "Engage in Advanced Diversity Training",
+                "description": "Participate in leadership training focused on diversity to further enhance skills in managing a diverse team."
+              }
+            ]
+          },
+          {
+            "level": "Generally Supportive of Equality ",
+            "score_range": "6-7.9 Points",
+            "key_findings": [
+              {
+                "finding": "Supportive of Gender Equality",
+                "description": "Generally promotes gender inclusivity, though there may be occasional opportunities for improvement."
+              },
+              {
+                "finding": "Encourages Equal Opportunities",
+                "description": "Ensures fair access to career advancement, though might not consistently track progress or address all areas"
+              },
+
+              {
+                "finding": "Open to Feedback on Inclusivity ",
+                "description": "Responds positively to feedback regarding gender equality and shows willingness to make adjustments as needed."
+              },
+              {
+                "finding": "Respectful Workplace Culture",
+                "description": "Maintains a respectful and inclusive work environment, though certain practices may benefit from greater focus on inclusivity."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Enhance Inclusivity Training",
+                "description": "Engage in regular diversity and inclusivity training to build upon current knowledge and address potential gaps."
+              },
+
+              {
+                "recommendation": "Implement Equality Metrics",
+                "description": "Track team promotions and professional development to ensure equal opportunities for all genders."
+              },
+
+              {
+                "recommendation": "Encourage Open Dialogue",
+                "description": "Foster a culture of open communication on inclusivity topics, encouraging team members to discuss and share perspectives."
+              }
+            ]
+          },
+          {
+            "level": "Limited Focus on Inclusivity",
+            "score_range": "4-5.9 Points",
+            "key_findings": [
+              {
+                "finding": "Inconsistent Gender Equality Practices",
+                "description": "Some inclusivity issues exist, particularly in areas such as hiring practices, promotions, or team dynamics."
+              },
+
+              {
+                "finding": "Occasional Gaps in Inclusivity Efforts",
+                "description": "While generally respectful, there may be occasional situations where gender equality is not fully considered or addressed.."
+              },
+
+              {
+                "finding": "Limited Awareness of Equality Gaps",
+                "description": "May not consistently track or address gender-related issues, resulting in potential disparities within the team."
+              },
+
+              {
+                "finding": "Impact on Team Dynamics",
+                "description": "Some team members may feel that opportunities are not equally distributed, which could affect morale and cohesion."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Increase Focus on Equal Opportunities",
+                "description": "Review hiring and promotion practices to ensure all genders have fair access to advancement."
+              },
+
+              {
+                "recommendation": "Participate in Inclusivity Training",
+                "description": "Engage in workshops on gender equality to improve understanding of diversity and how to promote it within the team."
+              },
+
+              {
+                "recommendation": "Monitor and Address Inclusivity Gaps",
+                "description": "Regularly assess team dynamics and gather feedback to identify and address any gender-related issues."
+              },
+
+              {
+                "recommendation": "Encourage Gender Inclusivity Initiatives",
+                "description": "Introduce activities or discussions focused on gender inclusivity to promote awareness and foster an inclusive team environment."
+              }
+            ]
+          },
+          {
+            "level": "Significant Challenges in Inclusivity ",
+            "score_range": "Below 4 Points",
+            "key_findings": [
+              {
+                "finding": "Limited Efforts in Gender Equality",
+                "description": "Rarely addresses gender equality in hiring, promotions, or team assignments, leading to notable inclusivity issues."
+              },
+
+              {
+                "finding": "Frequent Gender Disparities",
+                "description": "Gender inequality is observed in work processes, affecting team morale and contributing to a lack of diversity."
+              },
+
+              {
+                "finding": "Negative Impact on Team Culture",
+                "description": "Team members may feel undervalued or overlooked due to a lack of focus on gender inclusivity, which can lead to disengagement."
+              },
+
+              {
+                "finding": "Minimal Engagement with Inclusivity Initiatives",
+                "description": "Shows limited participation in or support for gender equality and diversity initiatives, impacting overall team cohesion."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Seek Training on Gender Equality",
+                "description": "Participate in mandatory training on gender equality and inclusivity to better understand and address these issues."
+              },
+
+              {
+                "recommendation": "Implement Structured Equality Policies",
+                "description": "Work with HR to establish clear guidelines on hiring, promotions, and equal opportunity practices."
+              },
+
+              {
+                "recommendation": "Foster Open Conversations on Inclusivity",
+                "description": "Encourage open discussions with the team to raise awareness about gender equality and create a more inclusive environment."
+              },
+
+              {
+                "recommendation": "Monitor Team Dynamics Regularly",
+                "description": "Regularly review team interactions and work processes to ensure equal opportunities and fair treatment for all genders."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Up-skilling and Career Growth Opportunities ",
+        "scoring_breakdown": {
+          "8-10_Points": "Actively participates in leadership development and provides ample up-skilling opportunities for the team.",
+          "6-7.9_Points": "Engages in some leadership development and up-skilling but could benefit from more focus",
+          "4-5.9_Points": "Limited participation in up-skilling and professional development for both the individual and team.",
+          "Below_4_Points": ": Little to no focus on personal or team development, leading to stagnation in growth opportunities"
+        },
+        "performance_levels": [
+          {
+            "level": "Actively Engaged in Development  ",
+            "score_range": "8-10 Points",
+            "key_findings": [
+              {
+                "finding": "Proactive Leadership Development",
+                "description": "Regularly participates in training and skill-building activities, demonstrating a commitment to continuous improvement"
+              },
+              {
+                "finding": "Encourages Team Growth",
+                "description": "Provides ample opportunities for team members to engage in up-skilling, such as workshops, certifications, and stretch assignments."
+              },
+              {
+                "finding": "Stays Updated with Industry Trends",
+                "description": "Actively seeks out new industry knowledge, which helps maintain competitive skills and knowledge."
+              },
+              {
+                "finding": "Positive Impact on Team Engagement",
+                "description": "Fosters a growth-oriented culture, inspiring team members to pursue their own professional development."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Continue Supporting Growth Initiatives",
+                "description": "Maintain current development practices and continue to encourage team participation in learning opportunities."
+              },
+              {
+                "recommendation": "Engage in Cross-functional Training",
+                "description": "Explore cross-functional training or mentorship programs to expand knowledge beyond current responsibilities."
+              },
+              {
+                "recommendation": "Share Development Experiences",
+                "description": "Share insights from training and skill-building with the team to reinforce a collaborative learning environment."
+              }
+            ]
+          },
+          {
+            "level": "Moderate Engagement in Development",
+            "score_range": "6-7.9 Points",
+            "key_findings": [
+              {
+                "finding": "Occasional Participation in Development",
+                "description": "Engages in up-skilling opportunities as needed, though more consistent participation could enhance skill growth."
+              },
+              {
+                "finding": "Supportive of Team Development",
+                "description": "Encourages team members to take advantage of up-skilling resources, though these may not be utilized regularly."
+              },
+
+              {
+                "finding": "Keeps Up with Key Industry Trends",
+                "description": "Stays informed on essential industry trends, though may benefit from exploring more in-depth training."
+              },
+              {
+                "finding": "Positive but Limited Impact",
+                "description": "Promotes skill growth within the team but could focus more on formal career development plans."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Increase Focus on Personal Development",
+                "description": "Prioritize consistent participation in leadership training and skill-building activities."
+              },
+
+              {
+                "recommendation": "Formalize Team Development Plans",
+                "description": "Create personalized development plans for each team member, outlining growth goals and recommended training."
+              },
+
+              {
+                "recommendation": "Explore Advanced Learning Opportunities",
+                "description": "Consider advanced certifications or specialized training to deepen expertise in key areas"
+              }
+            ]
+          },
+          {
+            "level": "Limited Development Focus ",
+            "score_range": "4-5.9 Points",
+            "key_findings": [
+              {
+                "finding": "Infrequent Up-skilling Participation",
+                "description": "Rarely engages in professional development activities, which may lead to skill gaps over time."
+              },
+
+              {
+                "finding": "Minimal Support for Team Growth",
+                "description": "Provides limited resources or encouragement for team members to pursue career growth, which can affect team motivation."
+              },
+
+              {
+                "finding": "Stagnant Knowledge Base",
+                "description": "May not regularly seek out new industry knowledge, leading to potential skill stagnation."
+              },
+
+              {
+                "finding": "Impact on Team Dynamics",
+                "description": "Team members may feel that opportunities for growth are lacking, which could affect engagement and job satisfaction."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Develop a Structured Growth Plans",
+                "description": "Work with HR or a mentor to establish a clear plan for personal and team development, setting achievable goals."
+              },
+
+              {
+                "recommendation": "Encourage Regular Up-skilling",
+                "description": "Make team up-skilling a priority by scheduling regular workshops, webinars, or training sessions."
+              },
+
+              {
+                "recommendation": "Stay Informed on Industry Trends",
+                "description": "Dedicate time to reading industry publications or attending webinars to remain competitive and knowledgeable."
+              },
+
+              {
+                "recommendation": "Introduce Mentorship Programs",
+                "description": "Pair team members with mentors or engage in mentorship to provide guidance and promote professional development."
+              }
+            ]
+          },
+          {
+            "level": "Little to No Development Focus ",
+            "score_range": "Below 4 Points",
+            "key_findings": [
+              {
+                "finding": "Lack of Focus on Development",
+                "description": "Rarely participates in up-skilling or professional development activities, which may hinder personal and team growth."
+              },
+
+              {
+                "finding": "Limited Support for Team Growth Opportunities",
+                "description": "Provides few, if any, resources for the team to pursue professional development, leading to a lack of motivation."
+              },
+
+              {
+                "finding": "Minimal Engagement with Industry Trends",
+                "description": "Does not regularly seek out industry updates, which could result in outdated skills and knowledge."
+              },
+
+              {
+                "finding": "Negative Impact on Team Morale",
+                "description": "Team members may feel undervalued due to limited growth opportunities, leading to potential disengagement and turnover."
+              }
+            ],
+            "recommendations": [
+              {
+                "recommendation": "Set Immediate Development Goals",
+                "description": "Establish short-term goals focused on learning new skills and improving current competencies."
+              },
+
+              {
+                "recommendation": "Seek Out Learning Resources",
+                "description": ": Consult with HR to access training resources, such as online courses or workshops, to initiate a regular learning routine."
+              },
+
+              {
+                "recommendation": "Encourage Team Development",
+                "description": "Support team members in identifying their own growth goals and provide resources to facilitate learning."
+              },
+
+              {
+                "recommendation": "Participate in Industry Networking",
+                "description": ": Engage in industry events, conferences, or online communities to gain insights into emerging trends and best practices."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

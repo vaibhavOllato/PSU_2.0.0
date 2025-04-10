@@ -1,0 +1,58 @@
+{
+  "reportPDF":{
+    "headerTitle":"Mind Mapping Assessment Report",
+    "CompanyWebsite":"www.ollato.com",
+    "CompanyName":"Ollato Eduversity PVT LTD."
+  },
+  "message": {
+    "congratulations": "Congratulations on choosing OLLATO EDUVERSITY as your partner in your journey towards achieving optimal well-being. At Ollato, we are dedicated to helping students achieve their full academic potential through our innovative Mind Mapping Programme. This program is designed to assess and enhance key factors influencing academic performance and overall well-being. Our team of expert psychologists has identified ten critical factors—attention, adjustment, self-awareness, study habits, time management, stress, anxiety, depression, sleep quality, and coping mechanisms—that significantly impact students' success and mental health.",
+    "programIntroduction": "Through comprehensive assessments, we provide a detailed understanding of each student's strengths and weaknesses. The results are presented in self-explanatory reports, complete with personalized action plans to address specific challenges and promote academic growth. By collaborating with schools and educational institutions, OLLATO EDUVERSITY aims to empower students with the insights and tools needed to overcome academic challenges and thrive both academically and personally.",
+    "comprehensivePathway": "We have developed a comprehensive pathway for students that encompasses various domains critical to their well-being. This assessment helps in identifying students' strengths and weaknesses, enabling them to leverage their capabilities and address areas that need improvement. Our test results also focus on enhancing students' academic performance, providing them with the tools and insights necessary for success.",
+    "closing": "Best Regards,",
+    "signature": "Team OLLATO",
+     "note": "Our Mind Mapping Programme is specially designed to cater to a diverse range of students and educators. Our assessments are suitable for students from 8th grade onwards, with specialized versions developed for various academic streams including humanities, commerce, management and medical students. This ensures that the programme addresses the unique needs and challenges of each academic path.",
+  "reportUsage": "The content of this report is the sole property of Ollato, and all copyrights are reserved. Any usage of this report for legal purposes is strictly prohibited, unless written permission has been obtained from the company. The primary aim of this examination and subsequent report is to encourage students to maintain good mental health and stay informed about their mental health status. If there are any disputes or conflicts, a formal complaint can be sent to the email address provided below."
+  },
+  "assessmentSummary": {
+    "introduction": "We are thrilled to welcome you to the world of happiness and endless possibilities for the future!! Congratulations on successfully completing the 'Ollato Mind Mapping Assessment' which evaluated multiple key domains of your mental health, particularly during your student phase. Our expert panel at Ollato has carefully crafted a comprehensive Mind Mapping Assessment report, which outlines your mind status across each dimension of your life and helps you gain a deeper understanding of your potential. If you have any questions, please do not hesitate to contact us. We are excited to embark on this journey and look forward to working together to enhance your well-being. We have thoroughly scrutinized and analysed your responses, and we have summarized our findings below in tabular and graphical way:-"
+  },
+ 
+  "detailedMindMappingReport": {
+"title": "Detailed PSU Assessment Report",
+    "description": "Time Management, Work-Life Balance, Stress Management, Anxiety,Depression, Coping Mechanism,Physical Health Issue,Finacial Stress, Gender Equality, Up-Skilling.",
+    "detailedDiscussion": "We would like to provide you with a comprehensive explanation of the various domains utilized in the assessment of your Mind Mapping report. Gaining an understanding of these domains will enable you to better comprehend the contents of your report. If you have any inquiries or require further assistance, please do not hesitate to contact our dedicated team of counsellors and professionals."
+  },
+      "commonData": {
+        "note": " Remember that our counselors and professionals are always available to help you understand your Mind Mapping report and provide guidance and support.  ",
+        "letter": {
+         
+          "content": "We have thoroughly analyzed your report based on your responses. Understanding one's strengths and weaknesses is crucial for enhancing academic performance. By focusing on these aspects, students can identify areas for improvement and develop strategies for success. Prioritizing self-awareness and continuous growth in academics leads to better performance, healthier relationships, and effective stress management. Our approach is designed to empower students, helping them to excel academically and achieve their full potential."
+        },
+        "signatures": [
+          {
+            "name": "",
+            "title": " ",
+            "qualification": ""
+          },
+          {
+            "name": "",
+            "title": "",
+            "qualification": ""
+          },
+          {
+            "name": "",
+            "title": ""
+          }
+        ],
+        "important": {
+          "note": "Please note that the content of this report is the exclusive property of Ollato Eduversity, and all copyrights are reserved. Unauthorized usage of this report for legal purposes is strictly prohibited unless written permission has been obtained from the company. The purpose of this assessment and the subsequent report is to promote awareness among Students regarding their mind status and encourage them to prioritize their well-being.",
+          "complaintEmail": "info@ollato.com",
+          "disclaimer": "In the event of any disputes or conflicts arising from this report, we kindly request that you submit a formal complaint to the email address provided below. We are committed to addressing any concerns and ensuring a fair resolution."
+        },
+        "footer": {
+          "note": "Ollato's Mind Mapping Programme Report 18 Powered by TCPDF."
+        }
+      }
+}
+
+

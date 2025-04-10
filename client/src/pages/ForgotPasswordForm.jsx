@@ -40,7 +40,7 @@ export default function ForgotPasswordForm() {
             {/* Back to Login */}
             <p className="text-center text-gray-600 mt-4">
               Remembered your password?{" "}
-              <Link to="/login" className="text-blue-600 hover:underline">Login</Link>
+              <Link to="/" className="text-blue-600 hover:underline">Login</Link>
             </p>
           </form>
         </div>

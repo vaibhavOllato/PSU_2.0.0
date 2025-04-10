@@ -1,0 +1,35 @@
+{
+    "notifications": [
+      {
+        "title": "Task 1",
+        "description": "Complete the assessment test.",
+        "status": "New",
+        "badgeColor": "bg-success"
+      },
+      {
+        "title": "Reminder",
+        "description": "Schedule your counseling session.",
+        "status": "Pending",
+        "badgeColor": "bg-warning text-dark"
+      },
+      {
+        "title": "Update",
+        "description": "Your report is ready.",
+        "status": "Completed",
+        "badgeColor": "bg-info"
+      },
+      {
+        "title": "Notice",
+        "description": "New updates available in your profile.",
+        "status": "Alert",
+        "badgeColor": "bg-danger"
+      },
+      {
+        "title": "Meeting Reminder",
+        "description": "Your next meeting is scheduled for tomorrow.",
+        "status": "Upcoming",
+        "badgeColor": "bg-primary"
+      }
+    ]
+  }
+  

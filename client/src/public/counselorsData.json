@@ -1,0 +1,1490 @@
+[
+  {
+    "id": 1,
+    "name": "Dr.Rajeev Sir",
+    "experience": "20+ years",
+    "expertise": ["Therapy", "Counseling", "Stress Management"],
+    "languages": ["English", "Spanish"],
+    "sessionType": "both",
+    "availableSlot": "Today, 09:00 AM",
+    "city": "Mulund, India",
+    "inPersonSlot": "Today, 01:00 PM",
+    "image": "https://randomuser.me/api/portraits/men/10.jpg",
+    "officeAddress": "Ollato Mind Mapping, Mulund, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg"
+    ],
+    "price": "$100/hour",
+    "availableDates": [
+      {
+        "date": "22 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "1:00 PM", "available": true },
+            { "time": "4:00 PM", "available": true },
+            { "time": "5:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "23 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "24 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "25 Nov",
+        "day": "Thu",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "26 Nov",
+        "day": "Fri",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "27 Nov",
+        "day": "Sat",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dr. Rajesh Sharma",
+    "experience": "15+ years",
+    "expertise": ["Psychotherapy", "Stress management", "Depression treatment"],
+    "languages": ["Hindi", "English"],
+    "sessionType": "both",
+    "availableSlot": "Today, 10:00 AM",
+    "city": "Mumbai",
+    "inPersonSlot": "Today, 04:00 PM",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "officeAddress": "Ollato Mind Mapping, Mulund, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg"
+    ],
+    "price": "$100/hour",
+    "availableDates": [
+      {
+        "date": "22 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "1:00 PM", "available": true },
+            { "time": "4:00 PM", "available": true },
+            { "time": "5:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "23 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "24 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "25 Nov",
+        "day": "Thu",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "26 Nov",
+        "day": "Fri",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "27 Nov",
+        "day": "Sat",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dr. Anjali Mehta",
+    "experience": "12+ years",
+    "expertise": ["Cognitive-behavioral therapy", "Anxiety treatment"],
+    "languages": ["English", "Marathi"],
+    "sessionType": "both",
+    "availableSlot": "Today, 11:00 AM",
+    "city": "Pune",
+    "inPersonSlot": "Tomorrow, 03:00 PM",
+    "image": "https://randomuser.me/api/portraits/women/2.jpg",
+    "officeAddress": "Ollato Mind Mapping, Mulund, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg"
+    ],
+    "price": "$100/hour",
+    "availableDates": [
+      {
+        "date": "22 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "1:00 PM", "available": true },
+            { "time": "4:00 PM", "available": true },
+            { "time": "5:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "23 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "24 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "25 Nov",
+        "day": "Thu",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "26 Nov",
+        "day": "Fri",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "27 Nov",
+        "day": "Sat",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Dr. Priya Sinha",
+    "experience": "5+ years",
+    "expertise": ["Cognitive-behavioral therapy", "Anxiety treatment"],
+    "languages": ["English", "Marathi"],
+    "sessionType": "both",
+    "availableSlot": "Today, 11:00 AM",
+    "city": "Pune",
+    "inPersonSlot": "Tomorrow, 03:00 PM",
+    "image": "https://randomuser.me/api/portraits/women/4.jpg",
+    "officeAddress": "Ollato Mind Mapping, Mulund, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg"
+    ],
+    "price": "$100/hour",
+    "availableDates": [
+      {
+        "date": "22 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "1:00 PM", "available": true },
+            { "time": "4:00 PM", "available": true },
+            { "time": "5:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "23 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "24 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "25 Nov",
+        "day": "Thu",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "26 Nov",
+        "day": "Fri",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "27 Nov",
+        "day": "Sat",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Dr. Riya Kulkarni",
+    "experience": "14+ years",
+    "expertise": ["Career counseling", "Work-life balance"],
+    "languages": ["Marathi", "English"],
+    "sessionType": "online",
+    "availableSlot": "Today, 06:00 PM",
+    "city": "Nagpur",
+    "inPersonSlot": "Tomorrow, 01:00 PM",
+    "image": "https://randomuser.me/api/portraits/women/8.jpg",
+    "officeAddress": "Ollato Mind Mapping, Mulund, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg"
+    ],
+    "price": "$100/hour",
+    "availableDates": [
+      {
+        "date": "22 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "1:00 PM", "available": true },
+            { "time": "4:00 PM", "available": true },
+            { "time": "5:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "23 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "24 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "25 Nov",
+        "day": "Thu",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "26 Nov",
+        "day": "Fri",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "27 Nov",
+        "day": "Sat",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Dr. Sanjay Verma",
+    "experience": "9+ years",
+    "expertise": ["Emotional intelligence", "Behavioral therapy"],
+    "languages": ["Hindi", "English"],
+    "sessionType": "inPerson",
+    "availableSlot": "Today, 07:00 PM",
+    "city": "Lucknow",
+    "inPersonSlot": "Tomorrow, 04:00 PM",
+    "image": "https://randomuser.me/api/portraits/men/9.jpg",
+    "officeAddress": "Ollato Mind Mapping, Mulund, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg"
+    ],
+    "price": "$100/hour",
+    "availableDates": [
+      {
+        "date": "22 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "1:00 PM", "available": true },
+            { "time": "4:00 PM", "available": true },
+            { "time": "5:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "23 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "24 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "25 Nov",
+        "day": "Thu",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "26 Nov",
+        "day": "Fri",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "27 Nov",
+        "day": "Sat",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Dr.Kiran Desai",
+    "experience": "8+ years",
+    "expertise": ["Anxiety management", "Coping strategies"],
+    "languages": ["Gujarati", "English"],
+    "sessionType": "online",
+    "availableSlot": "Today, 04:00 PM",
+    "city": "Ahmedabad",
+    "inPersonSlot": "Tomorrow, 02:00 PM",
+    "image": "https://randomuser.me/api/portraits/men/5.jpg",
+    "officeAddress": "Ollato Mind Mapping, Mulund, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg"
+    ],
+    "price": "$100/hour",
+    "availableDates": [
+      {
+        "date": "22 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "1:00 PM", "available": true },
+            { "time": "4:00 PM", "available": true },
+            { "time": "5:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "23 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "24 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "25 Nov",
+        "day": "Thu",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "26 Nov",
+        "day": "Fri",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "27 Nov",
+        "day": "Sat",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Dr.Kiran ",
+    "experience": "3+ years",
+    "expertise": ["Anxiety management", "Coping strategies"],
+    "languages": ["Gujarati", "English"],
+    "sessionType": "online",
+    "availableSlot": "Today, 04:00 PM",
+    "city": "Ahmedabad",
+    "inPersonSlot": "Tomorrow, 02:00 PM",
+    "image": "https://randomuser.me/api/portraits/women/6.jpg",
+    "officeAddress": "Ollato Mind Mapping, Mulund, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg"
+    ],
+    "price": "$100/hour",
+    "availableDates": [
+      {
+        "date": "22 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "1:00 PM", "available": true },
+            { "time": "4:00 PM", "available": true },
+            { "time": "5:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "23 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "24 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "25 Nov",
+        "day": "Thu",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "26 Nov",
+        "day": "Fri",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "27 Nov",
+        "day": "Sat",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Dr. Mohan Gupta",
+    "experience": "18+ years",
+    "expertise": ["Mental health counseling", "Personal growth"],
+    "languages": ["Hindi", "Punjabi"],
+    "sessionType": "both",
+    "availableSlot": "Tomorrow, 09:00 AM",
+    "city": "Delhi",
+    "inPersonSlot": "Tomorrow, 03:00 PM",
+    "image": "https://randomuser.me/api/portraits/men/7.jpg",
+    "officeAddress": "Ollato Mind Mapping, Mulund, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg"
+    ],
+    "price": "$100/hour",
+    "availableDates": [
+      {
+        "date": "22 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "1:00 PM", "available": true },
+            { "time": "4:00 PM", "available": true },
+            { "time": "5:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "23 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "24 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "25 Nov",
+        "day": "Thu",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "26 Nov",
+        "day": "Fri",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "27 Nov",
+        "day": "Sat",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Dr. Meera Das",
+    "experience": "15+ years",
+    "expertise": ["Grief counseling", "Family therapy"],
+    "languages": ["Bengali", "English"],
+    "sessionType": "online",
+    "availableSlot": "Today, 08:00 PM",
+    "city": "Guwahati",
+    "inPersonSlot": "Tomorrow, 05:00 PM",
+    "image": "https://randomuser.me/api/portraits/women/10.jpg",
+    "officeAddress": "Ollato Mind Mapping, Mulund, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg",
+      "https://thumbs.dreamstime.com/b/office-work-place-5879959.jpg"
+    ],
+    "price": "$100/hour",
+    "availableDates": [
+      {
+        "date": "22 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "1:00 PM", "available": true },
+            { "time": "4:00 PM", "available": true },
+            { "time": "5:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "23 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "24 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "25 Nov",
+        "day": "Thu",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "26 Nov",
+        "day": "Fri",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "27 Nov",
+        "day": "Sat",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Dr. Anita Sharma",
+    "experience": "15+ years",
+    "expertise": ["Relationship counseling", "Life coaching"],
+    "languages": ["English", "Hindi"],
+    "sessionType": "both",
+    "availableSlot": "Tomorrow, 11:00 AM",
+    "city": "Mumbai",
+    "inPersonSlot": "Tomorrow, 02:00 PM",
+    "image": "https://randomuser.me/api/portraits/women/8.jpg",
+    "officeAddress": "Anita Counseling Center, Mumbai, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-work-space-153423.jpeg",
+      "https://thumbs.dreamstime.com/b/office-interior-modern-style-231443.jpeg"
+    ],
+    "price": "$90/hour",
+    "availableDates": [
+      {
+        "date": "28 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "1:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "29 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [{ "time": "12:00 PM", "available": true }],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Dr. Rajesh Kumar",
+    "experience": "20+ years",
+    "expertise": ["Career counseling", "Stress management"],
+    "languages": ["English", "Hindi"],
+    "sessionType": "online",
+    "availableSlot": "Tomorrow, 10:00 AM",
+    "city": "Bangalore",
+    "inPersonSlot": "Not Available",
+    "image": "https://randomuser.me/api/portraits/men/9.jpg",
+    "officeAddress": "Kumar Career Counseling, Bangalore, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/modern-office-workplace-desk-119822.jpeg",
+      "https://thumbs.dreamstime.com/b/bright-modern-office-142245.jpeg"
+    ],
+    "price": "$110/hour",
+    "availableDates": [
+      {
+        "date": "28 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "2:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "5:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "30 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [{ "time": "1:00 PM", "available": true }],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Dr. Priya Mehra",
+    "experience": "10+ years",
+    "expertise": ["Child psychology", "Family therapy"],
+    "languages": ["English", "Gujarati"],
+    "sessionType": "inPerson",
+    "availableSlot": "Tomorrow, 12:00 PM",
+    "city": "Ahmedabad",
+    "inPersonSlot": "Tomorrow, 01:00 PM",
+    "image": "https://randomuser.me/api/portraits/women/10.jpg",
+    "officeAddress": "Mehra Child Therapy, Ahmedabad, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/children-room-143245.jpeg",
+      "https://thumbs.dreamstime.com/b/family-room-331222.jpeg"
+    ],
+    "price": "$80/hour",
+    "availableDates": [
+      {
+        "date": "28 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": false }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      },
+      {
+        "date": "29 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": false }],
+          "afternoon": [
+            { "time": "1:00 PM", "available": true },
+            { "time": "2:00 PM", "available": true }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Dr. Shalini Verma",
+    "experience": "25+ years",
+    "expertise": ["Addiction therapy", "Couples counseling"],
+    "languages": ["English", "Hindi"],
+    "sessionType": "both",
+    "availableSlot": "Tomorrow, 01:00 PM",
+    "city": "Kolkata",
+    "inPersonSlot": "Tomorrow, 04:00 PM",
+    "image": "https://randomuser.me/api/portraits/women/11.jpg",
+    "officeAddress": "Verma Counseling, Kolkata, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-modern-style-341254.jpeg",
+      "https://thumbs.dreamstime.com/b/therapy-office-467843.jpeg"
+    ],
+    "price": "$120/hour",
+    "availableDates": [
+      {
+        "date": "28 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "1:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "5:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "30 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "2:00 PM", "available": true }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Dr. Rakesh Yadav",
+    "experience": "12+ years",
+    "expertise": ["Psychiatric evaluation", "Stress management"],
+    "languages": ["English", "Hindi"],
+    "sessionType": "online",
+    "availableSlot": "Tomorrow, 10:00 AM",
+    "city": "Chennai",
+    "inPersonSlot": "Not Available",
+    "image": "https://randomuser.me/api/portraits/men/12.jpg",
+    "officeAddress": "Yadav Mental Health, Chennai, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/mental-health-office-673922.jpeg",
+      "https://thumbs.dreamstime.com/b/modern-office-519038.jpg"
+    ],
+    "price": "$85/hour",
+    "availableDates": [
+      {
+        "date": "28 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [{ "time": "12:00 PM", "available": false }],
+          "evening": [{ "time": "5:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "29 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [{ "time": "3:00 PM", "available": true }],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Dr. Priyanka Singh",
+    "experience": "22+ years",
+    "expertise": ["Therapeutic counseling", "Anxiety management"],
+    "languages": ["English", "Marathi"],
+    "sessionType": "both",
+    "availableSlot": "Tomorrow, 09:30 AM",
+    "city": "Pune",
+    "inPersonSlot": "Tomorrow, 03:30 PM",
+    "image": "https://randomuser.me/api/portraits/women/13.jpg",
+    "officeAddress": "Singh Counseling, Pune, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/modern-office-desk-1403574.jpeg",
+      "https://thumbs.dreamstime.com/b/interior-office-table-344786.jpg"
+    ],
+    "price": "$105/hour",
+    "availableDates": [
+      {
+        "date": "28 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "3:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      },
+      {
+        "date": "29 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [{ "time": "1:00 PM", "available": true }],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Dr. Vaibhav Verma",
+    "experience": "10+ years",
+    "expertise": ["Cognitive Behavioral Therapy", "Depression"],
+    "languages": ["English", "Hindi"],
+    "sessionType": "online",
+    "availableSlot": "Tomorrow, 02:00 PM",
+    "city": "Delhi",
+    "inPersonSlot": "Not Available",
+    "image": "https://randomuser.me/api/portraits/men/14.jpg",
+    "officeAddress": "Verma CBT Center, Delhi, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-desk-modern-computer-499312.jpg",
+      "https://thumbs.dreamstime.com/b/therapy-office-sofa-148852.jpg"
+    ],
+    "price": "$95/hour",
+    "availableDates": [
+      {
+        "date": "29 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Dr. Tanvi Malhotra",
+    "experience": "12+ years",
+    "expertise": ["Family Therapy", "Anger Management"],
+    "languages": ["Hindi", "English"],
+    "sessionType": "both",
+    "availableSlot": "Tomorrow, 03:00 PM",
+    "city": "Mumbai",
+    "inPersonSlot": "Tomorrow, 05:00 PM",
+    "image": "https://randomuser.me/api/portraits/women/15.jpg",
+    "officeAddress": "Malhotra Family Therapy, Mumbai, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/modern-office-couch-158433.jpg",
+      "https://thumbs.dreamstime.com/b/therapy-room-sofa-comfortable-142345.jpg"
+    ],
+    "price": "$110/hour",
+    "availableDates": [
+      {
+        "date": "30 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "1:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Dr. Vikas Singh",
+    "experience": "14+ years",
+    "expertise": ["Mental health", "Post-traumatic stress disorder (PTSD)"],
+    "languages": ["Hindi", "Punjabi"],
+    "sessionType": "online",
+    "availableSlot": "Tomorrow, 04:00 PM",
+    "city": "Chandigarh",
+    "inPersonSlot": "Not Available",
+    "image": "https://randomuser.me/api/portraits/men/16.jpg",
+    "officeAddress": "Singh Counseling, Chandigarh, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-computer-desk-548754.jpg",
+      "https://thumbs.dreamstime.com/b/office-sitting-couch-modern-102032.jpg"
+    ],
+    "price": "$85/hour",
+    "availableDates": [
+      {
+        "date": "28 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "2:00 PM", "available": true }
+          ],
+          "evening": [{ "time": "6:00 PM", "available": true }]
+        }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Dr. Nidhi Sharma",
+    "experience": "10+ years",
+    "expertise": ["Child Therapy", "Behavioral Disorders"],
+    "languages": ["English", "Hindi"],
+    "sessionType": "both",
+    "availableSlot": "Tomorrow, 01:00 PM",
+    "city": "Bangalore",
+    "inPersonSlot": "Tomorrow, 03:00 PM",
+    "image": "https://randomuser.me/api/portraits/women/17.jpg",
+    "officeAddress": "Sharma Child Therapy, Bangalore, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/kids-therapy-room-145456.jpg",
+      "https://thumbs.dreamstime.com/b/therapy-room-table-142345.jpg"
+    ],
+    "price": "$100/hour",
+    "availableDates": [
+      {
+        "date": "29 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [{ "time": "12:00 PM", "available": true }],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Dr. Manish Mehta",
+    "experience": "18+ years",
+    "expertise": ["Career Counseling", "Stress Management"],
+    "languages": ["English", "Gujarati"],
+    "sessionType": "online",
+    "availableSlot": "Tomorrow, 11:00 AM",
+    "city": "Ahmedabad",
+    "inPersonSlot": "Not Available",
+    "image": "https://randomuser.me/api/portraits/men/18.jpg",
+    "officeAddress": "Mehta Career Counseling, Ahmedabad, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/modern-office-desk-chair-142234.jpg",
+      "https://thumbs.dreamstime.com/b/office-working-space-138334.jpg"
+    ],
+    "price": "$95/hour",
+    "availableDates": [
+      {
+        "date": "28 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "1:00 PM", "available": true },
+            { "time": "4:00 PM", "available": false }
+          ],
+          "evening": [{ "time": "5:00 PM", "available": true }]
+        }
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Dr. Kiran Kapoor",
+    "experience": "22+ years",
+    "expertise": ["Depression", "Relationship Issues"],
+    "languages": ["English", "Hindi"],
+    "sessionType": "both",
+    "availableSlot": "Tomorrow, 02:00 PM",
+    "city": "Pune",
+    "inPersonSlot": "Tomorrow, 04:00 PM",
+    "image": "https://randomuser.me/api/portraits/women/19.jpg",
+    "officeAddress": "Kapoor Counseling, Pune, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/modern-office-chair-desk-442332.jpg",
+      "https://thumbs.dreamstime.com/b/therapy-room-couch-comfortable-153432.jpg"
+    ],
+    "price": "$110/hour",
+    "availableDates": [
+      {
+        "date": "28 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "3:00 PM", "available": true }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Dr. Rajeev Rao",
+    "experience": "16+ years",
+    "expertise": ["Therapeutic Counseling", "Anxiety"],
+    "languages": ["English", "Marathi"],
+    "sessionType": "both",
+    "availableSlot": "Tomorrow, 12:00 PM",
+    "city": "Kolkata",
+    "inPersonSlot": "Tomorrow, 03:00 PM",
+    "image": "https://randomuser.me/api/portraits/men/20.jpg",
+    "officeAddress": "Rao Therapy Center, Kolkata, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/office-table-138234.jpg",
+      "https://thumbs.dreamstime.com/b/counseling-therapy-sofa-123512.jpg"
+    ],
+    "price": "$105/hour",
+    "availableDates": [
+      {
+        "date": "30 Nov",
+        "day": "Wed",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [{ "time": "1:00 PM", "available": true }],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Dr. Anjali Joshi",
+    "experience": "20+ years",
+    "expertise": ["Marriage Counseling", "Grief Therapy"],
+    "languages": ["Hindi", "English"],
+    "sessionType": "online",
+    "availableSlot": "Tomorrow, 09:00 AM",
+    "city": "Noida",
+    "inPersonSlot": "Not Available",
+    "image": "https://randomuser.me/api/portraits/women/21.jpg",
+    "officeAddress": "Joshi Marriage Counseling, Noida, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/modern-therapy-room-couch-543652.jpg",
+      "https://thumbs.dreamstime.com/b/counseling-sofa-table-876223.jpg"
+    ],
+    "price": "$100/hour",
+    "availableDates": [
+      {
+        "date": "29 Nov",
+        "day": "Tue",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": false },
+            { "time": "3:00 PM", "available": true }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Dr. Arvind Kumar",
+    "experience": "13+ years",
+    "expertise": ["Psychotherapy", "Addiction Recovery"],
+    "languages": ["Hindi", "English"],
+    "sessionType": "both",
+    "availableSlot": "Tomorrow, 11:00 AM",
+    "city": "Lucknow",
+    "inPersonSlot": "Not Available",
+    "image": "https://randomuser.me/api/portraits/men/22.jpg",
+    "officeAddress": "Kumar Psychotherapy, Lucknow, India",
+    "officePhotos": [
+      "https://thumbs.dreamstime.com/b/therapy-room-therapy-sofa-438914.jpg",
+      "https://thumbs.dreamstime.com/b/office-chair-couch-modern-132143.jpg"
+    ],
+    "price": "$85/hour",
+    "availableDates": [
+      {
+        "date": "28 Nov",
+        "day": "Mon",
+        "timeSlots": {
+          "morning": [{ "time": "9:00 AM", "available": true }],
+          "afternoon": [
+            { "time": "12:00 PM", "available": true },
+            { "time": "3:00 PM", "available": false }
+          ],
+          "evening": []
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+    {
+      "id": 1,
+      "title": "Basic Package",
+      "originalPrice": 4000,
+      "discountPercentage": 20,
+      "finalPrice": 3000,
+      "gst": 18,
+      "suitedFor": "SUITED FOR:",
+      "features": [
+        "Online Assessment",
+        "Summary Report",
+        "Detailed Analysis of Report",
+        "Customized Improvement Tips",
+        "Basic Progress Tracking",
+        "Email Support For Queries"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Advanced Package",
+      "originalPrice": 6000,
+      "discountPercentage": 25,
+      "finalPrice": 4500,
+      "gst": 18,
+      "suitedFor": "SUITED FOR:",
+      "features": [
+        "Online Assessment",
+        "Summary Report",
+        "Detailed Analysis of Report",
+        "Customized Improvement Tips",
+        "Progress Tracking",
+        "Priority Email Support"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Premium Package",
+      "originalPrice": 8000,
+      "discountPercentage": 30,
+      "finalPrice": 5600,
+      "gst": 18,
+      "suitedFor": "SUITED FOR:",
+      "features": [
+        "Online Assessment",
+        "Summary Report",
+        "Detailed Analysis of Report",
+        "Personalized Improvement Tips",
+        "Detailed Progress Tracking",
+        "24/7 Support"
+      ]
+    }
+  ]
+  

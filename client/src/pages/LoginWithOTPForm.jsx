@@ -45,7 +45,7 @@ export default function LoginWithOTPForm() {
             {/* Back to Login */}
             <p className="text-center text-gray-600 mt-4">
               Want to login with password?{" "}
-              <Link to="/login" className="text-blue-600 hover:underline">Login</Link>
+              <Link to="/" className="text-blue-600 hover:underline">Login</Link>
             </p>
           </form>
         </div>

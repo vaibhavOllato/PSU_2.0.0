@@ -421,7 +421,7 @@ export default function RegisterForm() {
             <div className="mt-4 text-center">
               <p className="text-gray-600">
                 Already registered?{" "}
-                <Link to="/login" className="text-blue-600 hover:underline">
+                <Link to="/" className="text-blue-600 hover:underline">
                   Login
                 </Link>
               </p>

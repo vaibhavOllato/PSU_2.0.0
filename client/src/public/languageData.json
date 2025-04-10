@@ -1,0 +1,51 @@
+{
+    "en": {
+      "instructionTitle": "Instruction",
+      "instructions": [
+        "In this test, you'll encounter a series of statements designed to reflect everyday experiences.",
+        "There are 100 statements in total, covering a wide range of topics. For each statement, you'll be presented with five options, and your task is to choose the one that most closely aligns with your response or perspective.",
+        "It's important to note that there are no correct or incorrect answers.",
+        "Your responses are completely confidential, meaning they will be kept private and used exclusively for academic purposes.",
+        "Feel free to share your thoughts openly and honestly as you progress through the test."
+      ],
+      "startMessage": "I am ready to begin",
+      "startTestButton": "Start test"
+    },
+    "hi": {
+      "instructionTitle": "निर्देश",
+      "instructions": [
+        "इस परीक्षण में, आपको रोजमर्रा के अनुभवों को प्रतिबिंबित करने वाले बयानों की एक श्रृंखला मिलेगी।",
+        "कुल 100 बयान हैं, जो विभिन्न विषयों को कवर करते हैं। प्रत्येक बयान के लिए, आपको पाँच विकल्प प्रस्तुत किए जाएंगे, और आपका कार्य वह चुनना है जो आपके उत्तर या दृष्टिकोण के साथ सबसे अधिक मेल खाता हो।",
+        "यह ध्यान रखना महत्वपूर्ण है कि यहाँ कोई सही या गलत उत्तर नहीं हैं।",
+        "आपके उत्तर पूरी तरह से गोपनीय हैं, जिसका अर्थ है कि वे निजी रखे जाएंगे और विशेष रूप से शैक्षणिक उद्देश्यों के लिए उपयोग किए जाएंगे।",
+        "जैसे-जैसे आप परीक्षण में प्रगति करते हैं, स्वतंत्र और ईमानदारी से अपने विचार साझा करें।"
+      ],
+      "startMessage": "मैं शुरू करने के लिए तैयार हूं",
+      "startTestButton": "आकलन पर जाएं"
+    },
+    "mr": {
+      "instructionTitle": "सूचना",
+      "instructions": [
+        "या चाचणीत, आपण दैनंदिन अनुभव प्रतिबिंबित करणाऱ्या विधानांची मालिका पाहणार आहात.",
+        "एकूण 100 विधाने आहेत, जी विविध विषयांवर आधारित आहेत. प्रत्येक विधानासाठी, तुम्हाला पाच पर्याय दिले जातील आणि तुमचे उत्तर किंवा दृष्टिकोनाशी जुळणारा पर्याय निवडणे तुमचे काम आहे.",
+        "हे लक्षात ठेवणे महत्त्वाचे आहे की येथे कोणतेही बरोबर किंवा चूक उत्तर नाही.",
+        "तुमची उत्तरे पूर्णपणे गोपनीय असतात, म्हणजे ती खाजगी ठेवली जातात आणि फक्त शैक्षणिक उद्देशाने वापरली जातात.",
+        "तुम्ही चाचणीद्वारे प्रगती करत असताना तुमचे विचार मुक्तपणे आणि प्रामाणिकपणे सामायिक करा."
+      ],
+      "startMessage": "मी सुरू करण्यास तयार आहे",
+      "startTestButton": "मूल्यांकनावर जा"
+    },
+    "gu": {
+      "instructionTitle": "સૂચનાઓ",
+      "instructions": [
+        "આ ટેસ્ટમાં, તમે દૈનિક અનુભવોને દર્શાવતા નિવેદનોની શ્રેણીનો સામનો કરશો.",
+        "કુલ 100 નિવેદનો છે, જે વિવિધ વિષયોનું આવરણ કરે છે. દરેક નિવેદન માટે, તમને પાંચ વિકલ્પો રજૂ કરવામાં આવશે અને તમારું કાર્ય એ પસંદ કરવાનું છે જે તમારું પ્રતિસાદ અથવા દ્રષ્ટિકોણ સાથે સૌથી વધુ મળતું આવે છે.",
+        "ધ્યાનમાં રાખવું જરૂરી છે કે અહીં કોઈ સાચા કે ખોટા જવાબ નથી.",
+        "તમારા પ્રતિસાદ સંપૂર્ણપણે ગોપનીય છે, તે ખાનગી રાખવામાં આવશે અને ખાસ કરીને શૈક્ષણિક હેતુઓ માટે ઉપયોગમાં લેવાશે.",
+        "તમે ટેસ્ટમાં પ્રગતિ કરતા હો ત્યારે તમારા વિચારો ખુલ્લેઆમ અને ઈમાનદારીપૂર્વક શેર કરો."
+      ],
+      "startMessage": "હું શરૂ કરવા માટે તૈયાર છું",
+      "startTestButton": "મુલ્યાંકન પર જાઓ"
+    }
+  }
+  
