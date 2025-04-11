@@ -106,6 +106,7 @@ export const AuthProvider = ({ children }) => {
         loading,
         updateUserVerification,
         updateUserProfile,
+        isAuthenticated: !!user, // ← Add this
       }}
     >
       {children}

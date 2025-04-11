@@ -46,7 +46,7 @@ const SessionManagement = () => {
               key={tab}
               className={`px-4 py-2 text-sm font-medium rounded-md transition-all ${
                 activeTab === tab
-                  ? "bg-yellow-600 text-white"
+                  ? "bg-secondary text-white"
                   : "bg-gray-100 text-gray-600 hover:bg-gray-200"
               }`}
               onClick={() => setActiveTab(tab)}
@@ -59,7 +59,7 @@ const SessionManagement = () => {
         {/* Dropdown for Mobile & Tablet */}
         <div className="relative md:hidden">
           <button
-            className="w-full flex justify-between items-center px-4 py-2 bg-yellow-600 text-white rounded-md"
+            className="w-full flex justify-between items-center px-4 py-2 bg-secondary text-white rounded-md"
             onClick={() => setDropdownOpen(!dropdownOpen)}
           >
             {activeTab} ({notifications[activeTab] || 0})
@@ -109,13 +109,13 @@ const SessionManagement = () => {
                   <tr key={session.id} className="border">
                     <td className="border p-2">{session.id}</td>
                     <td className="border p-2">{session.title}</td>
-                    <td className="border p-2 text-yellow-600 font-semibold">
+                    <td className="border p-2 text-textSecondary font-semibold">
                       {session.status}
                     </td>
                     <td className="border p-2">{session.date}</td>
                     <td className="border p-2">{session.time}</td>
                     <td className="border p-2 flex gap-2">
-                      <button className="px-3 py-1 bg-yellow-500 text-white rounded-md text-sm">
+                      <button className="px-3 py-1 bg-secondary text-white rounded-md text-sm">
                         View
                       </button>
                       <button className="px-3 py-1 bg-red-500 text-white rounded-md text-sm">

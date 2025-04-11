@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import { UserCircle } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
-import theme from "../context/Theme";
+// import theme from "../context/Theme";
 import ProgressStep from "../components/ProgressStep";
 
 export default function Dashboard() {
@@ -35,7 +35,7 @@ export default function Dashboard() {
 
       axios
         .post(`${apiUrl}/api/auth/get-status`, {
-          panel_name: "pps",
+          panel_name: "psu",
           user_id: userData.userId,
         })
         .then((res) => {
@@ -97,7 +97,7 @@ export default function Dashboard() {
       {/* Profile Card */}
       <div className="bg-white border border-gray-300 shadow-md rounded-lg p-6 mb-6">
         {/* <h1 className="text-xl text-#f1b963 font-bold mb-4">Profile</h1> */}
-        <h1 className="text-xl text-[#f1b963] font-bold mb-4">
+        <h1 className="text-xl text-secondary font-bold mb-4">
           Welcome to PSU
         </h1>
 
@@ -124,11 +124,11 @@ export default function Dashboard() {
           {/* Right Section: Expert Profile Card */}
           <div className="md:w-1/2 bg-white shadow-lg rounded-xl p-5 flex flex-col items-start space-y-5 border h-full">
             {/* Profile Image */}
-            <UserCircle size={60} className="text-yellow-600" />
+            <UserCircle size={60} className="text-secondary" />
 
             {/* Expert Details */}
             <div className="flex-1">
-              <h2 className="text-xl text-[#83580b] font-semibold">
+              <h2 className="text-xl text-secondary font-semibold">
                 Dear {userName || "Student"},
               </h2>
 
@@ -145,7 +145,7 @@ export default function Dashboard() {
               {/* Profile Button */}
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="mt-3 px-4 py-1.5 text-sm bg-yellow-700 text-white rounded-md hover:bg-yellow-800 transition"
+                className="mt-3 px-4 py-1.5 text-sm bg-secondary text-white rounded-md hover:bg-secondary-hover transition"
               >
                 View Profile
               </button>
@@ -164,8 +164,8 @@ export default function Dashboard() {
               >
                 {/* Modal Header */}
                 <div className="flex items-center space-x-3 border-b pb-4">
-                  <UserCircle size={50} className="text-yellow-600" />
-                  <h2 className="text-xl font-semibold text-gray-800">
+                  <UserCircle size={50} className="text-secondary" />
+                  <h2 className="text-xl font-semibold text-primary">
                     {/* {user?.name || "Student"} */}
                     {userName || "Client name"},
                   </h2>
@@ -210,7 +210,7 @@ export default function Dashboard() {
                   </button>
                   <button
                     onClick={() => (window.location.href = "/profile-setting")}
-                    className="px-4 py-2 bg-yellow-700 text-white rounded-lg hover:bg-yellow-800 transition"
+                    className="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary-hover transition"
                   >
                     Go to Profile Settings
                   </button>
@@ -223,7 +223,7 @@ export default function Dashboard() {
 
       {/* Process UI */}
       <div className="bg-white bg-opacity-60 backdrop-blur-xl border border-gray-300 shadow-xl rounded-lg p-6 space-y-6">
-        <h1 className="text-xl text-[#f1b963] font-semibold ">Progress</h1>
+        <h1 className="text-xl text-secondary font-semibold ">Progress</h1>
         <hr className="my-4 border-gray-300" />
 
         <ProgressStep />
@@ -231,7 +231,7 @@ export default function Dashboard() {
 
       <div className="bg-white border border-gray-300 shadow-md rounded-lg mt-7 p-6 mb-9">
         {/* <div className="flex items-center justify-between border-b pb-3"> */}
-        <h1 className="text-xl text-[#f1b963] font-semibold mb-4">Bar Graph</h1>
+        <h1 className="text-xl text-secondary font-semibold mb-4">Bar Graph</h1>
         <hr className="my-4 border-gray-300" />
         {/* </div> */}
         {/* <div className="mt-4"> */}

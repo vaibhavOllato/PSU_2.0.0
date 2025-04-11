@@ -45,10 +45,12 @@ export default function LoginForm() {
         role: data.user.role || "",
         isVerified: data.user.email_is_verified === 1, // Convert 0/1 to boolean
         payment_status: data.user.payment_status || 0,
+        assessment_status: data.user.assessment_status || 0,
         gender: data.user.gender || "",
       };
 
       // console.log("Final User Data to be Stored:", userData);
+      login({ ...userData, token: data.token }); // ✅ important line
 
       localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify(userData));

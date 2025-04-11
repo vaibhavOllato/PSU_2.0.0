@@ -98,7 +98,7 @@ const VerifyEmail = () => {
 
   return (
     <div className="flex flex-col items-center justify-center p-6 bg-gray-100 rounded-lg shadow-md w-full max-w-md mx-auto mt-10">
-      <h2 className="text-xl font-semibold mb-3">Verify Your Email</h2>
+      <h2 className="text-xl font-semibold mb-3 text-textSecondary">Verify Your Email</h2>
       <p className="text-gray-700 text-center mb-4">
         Your registered email is: <br /> <strong>{email || "No email found"}</strong>
       </p>
@@ -110,7 +110,7 @@ const VerifyEmail = () => {
         </div>
       ) : (
         <button
-          className="px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition duration-300"
+          className="px-4 py-2 bg-secondary text-white rounded-lg hover:bg-secondary-hover transition duration-300"
           onClick={handleVerifyClick}
           disabled={loading || isVerified}
         >
@@ -121,7 +121,7 @@ const VerifyEmail = () => {
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white p-6 rounded-lg shadow-lg w-80">
-            <h3 className="text-lg font-semibold mb-2">Verify OTP</h3>
+            <h3 className="text-lg font-semibold mb-2 text-textSecondary">Verify OTP</h3>
             <p className="text-sm text-gray-600 mb-3">Enter the 6-digit OTP sent to your email:</p>
             <input
               type="text"
@@ -129,12 +129,12 @@ const VerifyEmail = () => {
               value={otp}
               onChange={(e) => setOtp(e.target.value)}
               placeholder="Enter OTP"
-              className="w-full p-2 border rounded-lg mb-3"
+              className="w-full p-2 border rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-secondary"
               disabled={loading || isVerified}
             />
             <div className="flex justify-end space-x-3">
               <button className="px-4 py-2 bg-gray-400 text-white rounded-lg hover:bg-gray-500" onClick={handleCloseModal} disabled={loading || isVerified}>Cancel</button>
-              <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700" onClick={handleOtpSubmit} disabled={loading || isVerified}>{loading ? "Verifying..." : "Verify OTP"}</button>
+              <button className="px-4 py-2 bg-secondary text-white rounded-lg hover:bg-secondary-hover" onClick={handleOtpSubmit} disabled={loading || isVerified}>{loading ? "Verifying..." : "Verify OTP"}</button>
             </div>
           </div>
         </div>

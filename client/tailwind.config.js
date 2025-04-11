@@ -4,19 +4,22 @@ export default {
   theme: {
     extend: {
       colors: {
-        // primary: "#0E3746",
-        primary: "#371D31",
-        secondary: "#FFB100", // Golden amber – contrasts beautifully with indigo
+        primary: "#001427",
+        "primary-hover": "#022c44",
+        // primary: "#371D31",
+        secondary: "#708d81",
+        "secondary-hover": "#5f786f",
+        textPrimary: "#708d81",
+        textSecondary: "#dd6e42",
 
-        textPrimary: "#1e293b", // Slate-800 – strong for dark text
-        textSecondary: "#475569", // Slate-600 – softer, for subtext
+        background: "#F8FAFC",
+        cardBackground: "#FFFFFF",
 
-        background: "#F8FAFC", // Slate-50 – very light background (off-white)
-        cardBackground: "#FFFFFF", // Pure white – clean card base
-
-        border: "#E2E8F0", // Slate-200 – subtle for borders
+        border: "#E2E8F0",
       },
     },
   },
   plugins: [],
 };
+
+// bg-[#022c44]

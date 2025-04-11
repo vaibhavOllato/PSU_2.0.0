@@ -15,12 +15,15 @@ const AssessmentGraph = () => {
     const fetchAssessmentData = async () => {
       if (user && user.userId && user.role) {
         try {
-          const response = await axios.post(`${apiUrl}/api/scoring/get-user-score`, {
-            user_id: user.userId,
-            panel_name: "psu",
-            role: user.role,
-            lang: "en",
-          });
+          const response = await axios.post(
+            `${apiUrl}/api/scoring/get-user-score`,
+            {
+              user_id: user.userId,
+              panel_name: "psu",
+              role: user.role,
+              lang: "en",
+            }
+          );
 
           if (response.data.results && response.data.results.length > 0) {
             const sortedResults = response.data.results.sort(
@@ -43,7 +46,9 @@ const AssessmentGraph = () => {
 
             setData(scores);
           } else {
-            setError("No assessment data found. Please complete an assessment.");
+            setError(
+              "No assessment data found. Please complete an assessment."
+            );
           }
         } catch (err) {
           console.error("Error fetching assessment data:", err);
@@ -52,7 +57,10 @@ const AssessmentGraph = () => {
       } else {
         setError(
           <div>
-            <p>No assessment data found. Please take the assessment to view your scores.</p>
+            <p>
+              No assessment data found. Please take the assessment to view your
+              scores.
+            </p>
             <a
               href="/assessment-page"
               className="inline-block mt-3 px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-md transition"

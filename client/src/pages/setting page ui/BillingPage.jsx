@@ -69,7 +69,7 @@ const BillingPage = () => {
       <div className="flex items-center gap-4 pb-4 border-b">
         <img src={companyLogo} className="w-12 h-18 border border-danger rounded-full shadow" alt="Company Logo" />
         <div>
-          <h2 className="text-xl font-bold text-yellow-600">Billing & Transactions</h2>
+          <h2 className="text-xl font-bold text-secondary">Billing & Transactions</h2>
           <p className="text-gray-500 text-sm">Your payment history at a glance.</p>
         </div>
       </div>

@@ -20,6 +20,9 @@ import SessionManagement from "./pages/SessionManagement";
 import PrivateRoute from "./routes/PrivateRoute";
 import Setting from "./pages/Setting";
 import { NotificationProvider } from "./context/NotificationProvider";
+import PaymentSuccessPage from "./pages/PaymentSuccessPage";
+import PaymentFailurePage from "./pages/PaymentFailurePage";
+import AssessmentSubmitted from "./pages/AssessmentSubmitted";
 if (!window.Buffer) window.Buffer = Buffer;
 
 export default function App() {
@@ -49,6 +52,7 @@ export default function App() {
               <Route path="language" element={<Language />} />{" "}
               <Route path="instructions" element={<Instructions />} />{" "}
               <Route path="assessment" element={<AssessmentComponent />} />{" "}
+              <Route path="assessment-submitted" element={<AssessmentSubmitted />} />{" "}
               <Route path="report" element={<Report />} />
               <Route
                 path="english-report"
@@ -65,6 +69,8 @@ export default function App() {
                 element={<SessionManagement />}
               />
               <Route path="profile-setting" element={<Setting />} />
+              {/* <Route path="/payment-success" element={<PaymentSuccessPage />} /> */}
+              {/* <Route path="/payment-failure" element={<PaymentFailurePage />} /> */}
             </Route>
           </Routes>
         </NotificationProvider>

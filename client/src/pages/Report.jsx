@@ -111,7 +111,7 @@ const Report = () => {
       {/* Profile Card */}
       <div className="bg-white border border-gray-300 shadow-md rounded-lg p-6 mb-6">
         {/* <h1 className="text-xl text-#f1b963 font-bold mb-4">Profile</h1> */}
-        <h1 className="text-xl text-[#f1b963] font-bold mb-4">
+        <h1 className="text-xl text-secondary font-bold mb-4">
           Detailed Report
         </h1>
 
@@ -122,7 +122,7 @@ const Report = () => {
           <strong>Note:</strong> Please select a language to view your report
           and download it. 
         </div> */}
-        <div className="bg-blue-100 text-yellow-800 p-3 rounded-md mb-4">
+        <div className="bg-blue-100 text-textSecondary p-3 rounded-md mb-4">
           <strong>Note:</strong> Please select a language to view and download
           your report. <br />
           If the report doesn't appear, please refresh the page and wait a
@@ -139,7 +139,7 @@ const Report = () => {
             {/* Styled Select Dropdown */}
             <div className="relative">
               <select
-                className="border border-gray-300 bg-gray-50 rounded-md p-2 text-gray-700 hover:border-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-500 transition"
+                className="border border-gray-300 bg-gray-50 rounded-md p-2 text-gray-700 hover:border-secondary focus:outline-none focus:ring-2 focus:ring-secondary transition"
                 value={language}
                 onChange={handleLanguageChange}
               >
@@ -195,7 +195,7 @@ const Report = () => {
             <button
               className={`px-6 py-2 rounded-t-lg transition ${
                 tab === "en"
-                  ? "bg-yellow-600 text-white shadow-md"
+                  ? "bg-secondary text-white shadow-md"
                   : "bg-gray-100 text-gray-700 hover:bg-gray-200"
               }`}
               onClick={() => {
@@ -208,7 +208,7 @@ const Report = () => {
             <button
               className={`px-6 py-2 rounded-t-lg transition ${
                 tab === "mr"
-                  ? "bg-yellow-600 text-white shadow-md"
+                  ? "bg-secondary text-white shadow-md"
                   : "bg-gray-100 text-gray-700 hover:bg-gray-200"
               }`}
               onClick={() => {

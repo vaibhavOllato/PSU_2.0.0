@@ -94,7 +94,7 @@ const InfoComponent = () => {
             </div>
           )}
           <button
-            className="absolute bottom-1 right-1 bg-yellow-600 text-white p-2 rounded-full shadow-md hover:bg-yellow-700"
+            className="absolute bottom-1 right-1 bg-secondary text-white p-2 rounded-full shadow-md hover:secondary-hover"
             onClick={handleEditProfileImg}
           >
             <FaUserEdit />
@@ -106,7 +106,7 @@ const InfoComponent = () => {
             onChange={handleFileChange}
           />
         </div>
-        <h2 className="mt-4 text-3xl font-bold text-yellow-800 text-center">
+        <h2 className="mt-4 text-3xl font-bold text-secondary text-center">
           {profileData?.first_name} {profileData?.last_name}
         </h2>
         <p className="text-gray-500 text-sm mb-4 mt-2">
@@ -134,7 +134,7 @@ const InfoComponent = () => {
         </div>
       </div>
       <button
-        className="mt-6 w-full bg-yellow-600 text-white py-2 rounded-xl hover:bg-yellow-700 text-lg font-semibold shadow-md"
+        className="mt-6 w-full bg-secondary text-white py-2 rounded-xl hover:bg-secondary-hover text-lg font-semibold shadow-md"
         onClick={() => setIsModalOpen(true)}
       >
         Edit Profile
@@ -172,7 +172,7 @@ const EditProfileModal = ({ profileData, onClose }) => {
         >
           <FaTimes />
         </button>
-        <h2 className="text-2xl font-bold mb-6 text-center text-yellow-700">
+        <h2 className="text-2xl font-bold mb-6 text-center text-secondary">
           Edit Profile
         </h2>
         <form onSubmit={handleSubmit} className="grid gap-4">
@@ -180,7 +180,7 @@ const EditProfileModal = ({ profileData, onClose }) => {
             type="text"
             name="first_name"
             placeholder="First Name"
-            className="p-3 border rounded-xl focus:outline-none focus:ring-1 focus:ring-yellow-500"
+            className="p-3 border rounded-xl focus:outline-none focus:ring-1 focus:ring-secondary"
             value={formData.first_name || ""}
             onChange={handleChange}
           />
@@ -188,7 +188,7 @@ const EditProfileModal = ({ profileData, onClose }) => {
             type="text"
             name="last_name"
             placeholder="Last Name"
-            className="p-3 border rounded-xl focus:outline-none focus:ring-1 focus:ring-yellow-500"
+            className="p-3 border rounded-xl focus:outline-none focus:ring-1 focus:ring-secondary"
             value={formData.last_name || ""}
             onChange={handleChange}
           />
@@ -196,7 +196,7 @@ const EditProfileModal = ({ profileData, onClose }) => {
             type="email"
             name="email"
             placeholder="Email"
-            className="p-3 border rounded-xl focus:outline-none focus:ring-1 focus:ring-yellow-500"
+            className="p-3 border rounded-xl focus:outline-none focus:ring-1 focus:ring-secondary"
             value={formData.email || ""}
             onChange={handleChange}
           />
@@ -204,7 +204,7 @@ const EditProfileModal = ({ profileData, onClose }) => {
             type="tel"
             name="phone"
             placeholder="Phone"
-            className="p-3 border rounded-xl focus:outline-none focus:ring-1 focus:ring-yellow-500"
+            className="p-3 border rounded-xl focus:outline-none focus:ring-1 focus:ring-secondary"
             value={formData.phone || ""}
             onChange={handleChange}
           />
@@ -212,13 +212,13 @@ const EditProfileModal = ({ profileData, onClose }) => {
             type="date"
             name="dateOfBirth"
             placeholder="Date of Birth"
-            className="p-3 border rounded-xl focus:outline-none focus:ring-1 focus:ring-yellow-500"
+            className="p-3 border rounded-xl focus:outline-none focus:ring-1 focus:ring-secondary"
             value={formData.dateOfBirth || ""}
             onChange={handleChange}
           />
           <button
             type="submit"
-            className="bg-yellow-600 text-white py-3 rounded-xl font-semibold hover:bg-yellow-700 transition duration-300"
+            className="bg-secondary text-white py-3 rounded-xl font-semibold hover:bg-secondary-hover transition duration-300"
           >
             Save Changes
           </button>

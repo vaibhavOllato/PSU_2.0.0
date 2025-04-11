@@ -241,7 +241,7 @@ const Summary = () => {
             className="flex items-center justify-between px-4 py-3 border-b cursor-pointer"
             onClick={toggleAccordion}
           >
-            <h6 className="text-blue-600 font-semibold">Client Details</h6>
+            <h6 className="text-textSecondary font-semibold">Client Details</h6>
             <span>
               {isOpen ? (
                 <i className="fas fa-chevron-up" />
@@ -252,8 +252,8 @@ const Summary = () => {
           </div>
           {isOpen && (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
-              <div className="bg-blue-100 border-l-4 border-blue-500 rounded-lg shadow p-4">
-                <h5 className="text-blue-700 font-bold mb-2">Client Details</h5>
+              <div className="bg-blue-100 border-l-4 border-textSecondary rounded-lg shadow p-4">
+                <h5 className="text-secondary font-bold mb-2">Client Details</h5>
                 <ul className="space-y-2">
                   <li>
                     <strong>Client ID:</strong> {user?.userId || "0000"}
@@ -270,8 +270,8 @@ const Summary = () => {
                 </ul>
               </div>
 
-              <div className="bg-blue-100 border-l-4 border-blue-500 rounded-lg shadow p-4">
-                <h5 className="text-blue-700 font-bold mb-2">
+              <div className="bg-blue-100 border-l-4 border-textSecondary rounded-lg shadow p-4">
+                <h5 className="text-secondary font-bold mb-2">
                   Package Details
                 </h5>
                 {packageInfo ? (
@@ -299,7 +299,7 @@ const Summary = () => {
         {/* Summary Detail */}
         <div className="bg-white shadow rounded-lg mb-6">
           <div className="flex items-center px-4 py-3 border-b gap-2">
-            <h6 className="text-blue-600 font-semibold">Summary Detail</h6>
+            <h6 className="text-textSecondary font-semibold">Summary Detail</h6>
             {/* Uncomment this if needed
           <button
             onClick={downloadReport}
@@ -327,7 +327,7 @@ const Summary = () => {
               </div>
 
               <div className="md:col-span-10 text-center">
-                <h5 className="text-blue-700 font-bold uppercase">
+                <h5 className="text-textSecondary font-bold uppercase">
                   Ollato Mind Mapping Summary Report
                 </h5>
                 <hr className="my-4 border-black border-t-2" />
@@ -366,7 +366,7 @@ const Summary = () => {
                   {/* Mobile View: Vertical format */}
                   <div className="block sm:hidden space-y-4 border rounded-md p-4 bg-white text-sm">
                     <div className="flex justify-between">
-                      <span className="font-semibold text-blue-700">
+                      <span className="font-semibold text-secondary">
                         Client Name:
                       </span>
                       <span className="capitalize">
@@ -374,13 +374,13 @@ const Summary = () => {
                       </span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="font-semibold text-blue-700">
+                      <span className="font-semibold text-secondary">
                         Client Role:
                       </span>
                       <span>{user?.role || "N/A"}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="font-semibold text-blue-700">
+                      <span className="font-semibold text-secondary">
                         Exam Date:
                       </span>
                       <span>
@@ -398,7 +398,7 @@ const Summary = () => {
                     <table className="min-w-full text-sm border border-gray-300 rounded-md">
                       <tbody>
                         <tr className="border-b border-gray-200">
-                          <th className="text-left text-blue-700 px-4 py-2 border-r w-32">
+                          <th className="text-left text-secondary px-4 py-2 border-r w-32">
                             Client Name:
                           </th>
                           <td className="capitalize px-4 py-2 border-r">
@@ -406,13 +406,13 @@ const Summary = () => {
                               ? `${user.first_name} ${user.last_name}`
                               : "XYZ"}
                           </td>
-                          <th className="text-left text-blue-700 px-4 py-2 border-r w-32">
+                          <th className="text-left text-secondary px-4 py-2 border-r w-32">
                             Client Role:
                           </th>
                           <td className="px-4 py-2 border-r">
                             {user?.role || "N/A"}
                           </td>
-                          <th className="text-left text-blue-700 px-4 py-2 border-r w-32">
+                          <th className="text-left text-secondary px-4 py-2 border-r w-32">
                             Exam Date:
                           </th>
                           <td className="px-4 py-2">
@@ -432,7 +432,7 @@ const Summary = () => {
 
             {/* Score Table */}
             <div className="overflow-x-auto">
-              <table className="w-full border border-blue-200 text-blue-700 text-sm">
+              <table className="w-full border border-blue-200 text-textSecondary text-sm">
                 <thead>
                   <tr className="bg-blue-100">
                     <th className="border px-4 py-2">Domain</th>

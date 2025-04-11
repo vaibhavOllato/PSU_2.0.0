@@ -20,24 +20,39 @@ const Assessment = () => {
   const userData = JSON.parse(localStorage.getItem("user"));
   const role = user ? user.role : "Testing";
   const user_id = user ? user.userId : null;
-  const user_name = user?.first_name && user?.last_name ? `${user.first_name} ${user.last_name}` : "Testing";
+  const user_name =
+    user?.first_name && user?.last_name
+      ? `${user.first_name} ${user.last_name}`
+      : "Testing";
 
   const apiUrl = import.meta.env.VITE_APP_API_BASE_URL;
   const selectedLanguage = "en";
   const completed_test = 1;
   const today = new Date();
-  const formattedDate = `${today.getFullYear().toString().slice(-2)}/${(today.getMonth() + 1).toString().padStart(2, "0")}/${today.getDate().toString().padStart(2, "0")}`;
+  const formattedDate = `${today.getFullYear().toString().slice(-2)}/${(
+    today.getMonth() + 1
+  )
+    .toString()
+    .padStart(2, "0")}/${today.getDate().toString().padStart(2, "0")}`;
   const panel_name = "psu";
   const lowerCase_role = role.toLowerCase();
 
-  let assessment_id = role === "upper" && selectedLanguage === "en" ? 3 : role === "middle" && selectedLanguage === "en" ? 4 : role === "junior" && selectedLanguage === "mr" ? 5 : null;
-  const fetchUrl = lowerCase_role === "middle" && selectedLanguage === "en"
-    ? `${apiUrl}/api/assessment/psu/middle/en`
-    : lowerCase_role === "upper" && selectedLanguage === "en"
-    ? `${apiUrl}/api/assessment/psu/upper/en`
-    : lowerCase_role === "junior" && selectedLanguage === "en"
-    ? `${apiUrl}/api/assessment/psu/junior/en`
-    : ``;
+  let assessment_id =
+    role === "upper" && selectedLanguage === "en"
+      ? 3
+      : role === "middle" && selectedLanguage === "en"
+      ? 4
+      : role === "junior" && selectedLanguage === "mr"
+      ? 5
+      : null;
+  const fetchUrl =
+    lowerCase_role === "middle" && selectedLanguage === "en"
+      ? `${apiUrl}/api/assessment/psu/middle/en`
+      : lowerCase_role === "upper" && selectedLanguage === "en"
+      ? `${apiUrl}/api/assessment/psu/upper/en`
+      : lowerCase_role === "junior" && selectedLanguage === "en"
+      ? `${apiUrl}/api/assessment/psu/junior/en`
+      : ``;
 
   const submitUrl = `${apiUrl}/api/scoring/submit`;
 
@@ -63,7 +78,10 @@ const Assessment = () => {
             panel_name: "psu",
             user_id: user_id,
           });
-          if (response.data.success && response.data.result.assessment_status === 1) {
+          if (
+            response.data.success &&
+            response.data.result.assessment_status === 1
+          ) {
             setHasGivenAssessment(true);
           }
         } catch (error) {
@@ -126,11 +144,16 @@ const Assessment = () => {
 
   const handleNext = () => {
     if (currentPage < totalPages - 1) {
-      const allAnswered = currentQuestions.every((_, i) => answers[startIndex + i] !== undefined);
+      const allAnswered = currentQuestions.every(
+        (_, i) => answers[startIndex + i] !== undefined
+      );
       if (allAnswered) {
         setCurrentPage((prev) => prev + 1);
         setTimeout(() => {
-          pageRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+          pageRef.current?.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
         }, 50);
       } else {
         toast.error("Please answer all questions before proceeding.");
@@ -147,12 +170,18 @@ const Assessment = () => {
   return (
     <div ref={pageRef} className="w-full px-4 py-4">
       <div className="">
-        <h2 className="text-3xl font-semibold text-gray-400 mb-6">Assessment</h2>
+        <h2 className="text-3xl font-semibold text-gray-400 mb-6">
+          Assessment
+        </h2>
 
         <div className="bg-white shadow-md rounded-lg overflow-hidden mb-6">
           <div className="flex items-center justify-between bg-blue-100 px-6 py-3">
-            <h6 className="text-blue-800 font-semibold">Assessment Code: {selectedLanguage}</h6>
-            <h6 className="text-blue-800 font-semibold">Client Role: {role}</h6>
+            <h6 className="text-textSecondary font-semibold">
+              Assessment Code: {selectedLanguage}
+            </h6>
+            <h6 className="text-textSecondary font-semibold">
+              Client Role: {role}
+            </h6>
           </div>
 
           <div className="bg-gradient-to-br from-[#fdfcfb] to-[#e2d1c3] p-6">
@@ -161,9 +190,9 @@ const Assessment = () => {
                 {/* <h4 className="text-lg font-medium mb-4">
                   {`Q${startIndex + index + 1}: ${question.questions}`}
                 </h4> */}
-                <h4 className="text-lg font-semibold text-gray-800 mb-4 bg-yellow-100 border-l-4 border-yellow-500 p-4 rounded-md shadow-sm">
-  {`Q${startIndex + index + 1}: ${question.questions}`}
-</h4>
+                <h4 className="text-lg font-semibold text-gray-800 mb-4 bg-green-200 border-l-4 border-textSecondary p-4 rounded-md shadow-sm">
+                  {`Q${startIndex + index + 1}: ${question.questions}`}
+                </h4>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {["A", "B", "C", "D"].map((option, idx) => (
@@ -171,7 +200,7 @@ const Assessment = () => {
                       key={option}
                       className={`flex items-center gap-2 border p-3 rounded cursor-pointer transition ${
                         answers[startIndex + index] === option
-                          ? "border-blue-500 bg-blue-100"
+                          ? "border-secondary bg-blue-100"
                           : "border-gray-300"
                       }`}
                     >
@@ -202,13 +231,15 @@ const Assessment = () => {
               </button>
               <button
                 onClick={
-                  currentPage === Math.floor(totalQuestions / questionsPerPage) - 1
+                  currentPage ===
+                  Math.floor(totalQuestions / questionsPerPage) - 1
                     ? handleSubmit
                     : handleNext
                 }
                 className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
               >
-                {currentPage === Math.floor(totalQuestions / questionsPerPage) - 1
+                {currentPage ===
+                Math.floor(totalQuestions / questionsPerPage) - 1
                   ? "Submit"
                   : "Next"}
               </button>

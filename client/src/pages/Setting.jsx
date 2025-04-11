@@ -22,7 +22,7 @@ const Setting = () => {
       <h1 className="text-2xl text-gray-400 font-bold mb-4">Settings</h1>
 
       <div className="bg-white border border-gray-300 shadow-md rounded-lg p-6 mb-6">
-        <h1 className="text-xl text-[#f1b963] font-bold mb-4">Profile Setting</h1>
+        <h1 className="text-xl text-secondary font-bold mb-4">Profile Setting</h1>
         <hr className="my-4 border-gray-300" />
 
         {/* Mobile View: Dropdown */}

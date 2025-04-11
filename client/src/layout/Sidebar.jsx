@@ -308,7 +308,7 @@ export default function Sidebar({ isOpen, toggleSidebar, isMobile }) {
           {!isMobile && (
             <button
               onClick={toggleSidebar}
-              className="text-white p-1 rounded-full bg-gray-700 hover:bg-gray-600 transition-all duration-300 shadow-lg border border-yellow-500"
+              className="text-white p-1 rounded-full bg-gray-700 hover:bg-gray-600 transition-all duration-300 shadow-lg border border-textSecondary"
             >
               {isOpen ? <ChevronLeft size={20} /> : <ChevronRight size={20} />}
             </button>
@@ -356,7 +356,7 @@ export default function Sidebar({ isOpen, toggleSidebar, isMobile }) {
         {/* Logout Button */}
         <button
           onClick={() => setIsLogoutOpen(true)}
-          className="flex items-center justify-center my-4 p-2 bg-[#83580b] hover:bg-yellow-900 text-white rounded-md transition-all duration-300 mx-auto"
+          className="flex items-center justify-center my-4 p-2 bg-textSecondary hover:bg-yellow-900 text-white rounded-md transition-all duration-300 mx-auto"
         >
           <LogOut size={24} />
           {isOpen && <span className="ml-3">Logout</span>}

@@ -103,7 +103,7 @@ const ChangePassword = () => {
         onSubmit={handleSubmit}
         className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full border border-gray-200"
       >
-        <h2 className="text-2xl font-semibold text-yellow-800 mb-6 text-center">
+        <h2 className="text-2xl font-semibold text-secondary mb-6 text-center">
           🔒 Change Password
         </h2>
 
@@ -120,7 +120,7 @@ const ChangePassword = () => {
               onChange={handleChange}
               placeholder="Enter your current password"
               required
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-yellow-500 transition"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-secondary transition"
             />
             <button
               type="button"
@@ -145,7 +145,7 @@ const ChangePassword = () => {
               onChange={handleChange}
               placeholder="Enter your new password"
               required
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-yellow-500 transition"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-secondary transition"
             />
             <button
               type="button"
@@ -170,7 +170,7 @@ const ChangePassword = () => {
               onChange={handleChange}
               placeholder="Enter your confirm new password"
               required
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-yellow-500 transition"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-secondary transition"
             />
             <button
               type="button"
@@ -185,7 +185,7 @@ const ChangePassword = () => {
         {/* Submit Button */}
         <button
           type="submit"
-          className="w-full bg-gradient-to-r from-yellow-500 to-yellow-700 text-white py-3 rounded-lg font-medium hover:from-yellow-600 hover:to-yellow-800 transition"
+          className="w-full bg-secondary text-white py-3 rounded-lg font-medium hover:from-yellow-600 hover:bg-secondary-hover transition"
         >
           Update Password
         </button>

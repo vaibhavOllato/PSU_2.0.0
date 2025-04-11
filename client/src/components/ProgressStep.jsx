@@ -36,7 +36,7 @@ const Progress = () => {
 
         {/* Progress Connector */}
         <div
-          className="absolute top-1/2 left-0 h-1 transform -translate-y-1/2 bg-gradient-to-r from-yellow-500 to-yellow-700"
+          className="absolute top-1/2 left-0 h-1 transform -translate-y-1/2 bg-primary"
           style={{
             width: `${(currentStep / processSteps.length) * 100}%`, // Dynamically adjust the width based on currentStep
           }}
@@ -71,7 +71,7 @@ const Progress = () => {
             className="relative bg-opacity-30 bg-white backdrop-blur-xl p-6 rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col items-center border border-gray-400"
           >
             {/* Step Icon */}
-            <div className="w-14 h-14 flex items-center justify-center bg-gradient-to-r from-yellow-500 to-yellow-700 text-white rounded-full shadow-md mb-4">
+            <div className="w-14 h-14 flex items-center justify-center bg-primary text-white rounded-full shadow-md mb-4">
               {item.icon}
             </div>
             {/* Step Text */}
