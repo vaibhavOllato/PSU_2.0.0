@@ -210,8 +210,8 @@ const styles = StyleSheet.create({
     textAlign: "right",
   },
   second: {
-    width: 450,
-    height: 300,
+    width: 350,
+    height: 250,
   },
   qrCode: {
     width: 160,

@@ -1,100 +1,4 @@
 // import { CheckCircle, Loader, Clock } from "lucide-react";
-// import { useState, useEffect } from "react";
-
-// export default function Dashboard() {
-//   const processSteps = [
-//     {
-//       step: "Select Package",
-//       //   status: "Completed",
-//       icon: <CheckCircle size={24} className="text-green-500" />,
-//     },
-//     {
-//       step: "Make Assessment",
-//       //   status: "In Progress",
-//       icon: <Loader size={24} className="text-yellow-500 animate-spin" />,
-//     },
-//     {
-//       step: "Show Result",
-//       //   status: "Pending",
-//       icon: <Clock size={24} className="text-gray-500" />,
-//     },
-//     {
-//       step: "Book Session",
-//       //   status: "Pending",
-//       icon: <Clock size={24} className="text-gray-500" />,
-//     },
-//     {
-//       step: "Counselors",
-//       //   status: "Pending",
-//       icon: <Clock size={24} className="text-gray-500" />,
-//     },
-//   ];
-//   const [userName, setUserName] = useState("");
-//   useEffect(() => {
-//     const userData = JSON.parse(localStorage.getItem("user"));
-//     if (userData?.first_name && userData?.last_name) {
-//       setUserName(`${userData.first_name} ${userData.last_name}`);
-//     } else if (userData?.first_name) {
-//       setUserName(userData.first_name);
-//     }
-//   }, []);
-
-//   return (
-//     <div className="p-1">
-//       <h1 className="text-2xl text-gray-400 font-bold mb-4">Dashboard</h1>
-
-//       {/* Profile Card */}
-//       <div className="bg-white border border-gray-300 shadow-md rounded-lg p-6 mb-6">
-//         <h1 className="text-xl font-bold mb-4">Profile</h1>
-//         <hr className="my-4 border-gray-300" />
-
-//         <div className="flex items-center space-x-6 border-b pb-4">
-//           <div>
-//             <h2 className="text-xl font-semibold">Dear {userName || "User"},</h2>
-//             {/* <span className="text-sm font-medium">{userName || "User"}</span> */}
-//             {/* <p className="text-gray-600">Software Engineer</p> */}
-//             <p className="mt-2 text-gray-700">
-//               Please carefully review the following instructions. Completing
-//               this test will require a minimum of one hour of your time. At
-//               Ollato, we prioritize your well-being as a fundamental component.
-//               Field experts have meticulously crafted our assessment test to
-//               offer you a precise evaluation of your strengths and weaknesses
-//               status. Upon finishing the test, you will receive a comprehensive
-//               17-page report. Following this, you can schedule a session for
-//               expert guidance.
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-
-//       {/* Process UI */}
-//       <div className="bg-white border border-gray-300 shadow-md rounded-lg p-6">
-//         <h1 className="text-xl font-bold mb-4">Your Progress</h1>
-//         <hr className="my-4 border-gray-300" />
-
-//         {/* Process Steps as Small Cards */}
-//         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-//           {processSteps.map((item, index) => (
-//             <div
-//               key={index}
-//               className="bg-gray-100 p-6 rounded-lg shadow flex flex-col items-center text-center space-y-3"
-//             >
-//               <div className="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow">
-//                 {item.icon}
-//               </div>
-//               <span className="text-lg font-medium">{item.step}</span>
-//               {/* <span className="text-sm text-gray-600">{item.status}</span> */}
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-
-
-// import { CheckCircle, Loader, Clock } from "lucide-react";
 import { useState, useEffect } from "react";
 import AssessmentGraph from "./AssessmentGraph";
 import axios from "axios";
@@ -106,12 +10,13 @@ import {
   Award,
 } from "lucide-react";
 import { UserCircle } from "lucide-react";
+import { Link, useNavigate } from "react-router-dom";
 import theme from "../context/Theme";
 import ProgressStep from "../components/ProgressStep";
 
 export default function Dashboard() {
   const apiUrl = import.meta.env.VITE_APP_API_BASE_URL;
-
+  const navigate = useNavigate();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [assessmentStatus, setAssessmentStatus] = useState("Pending");
   const [user, setUser] = useState(null);
@@ -161,6 +66,33 @@ export default function Dashboard() {
   return (
     <div className="p-1">
       <h1 className="text-2xl text-gray-400 font-bold mb-4">Dashboard</h1>
+
+      {user && !user.isVerified && (
+        <div className="rounded-lg shadow-lg mb-4 border border-gray-200 bg-white">
+          <div className="flex items-center justify-between px-6 py-3 bg-blue-600 rounded-t-lg">
+            <h5 className="text-white text-lg font-semibold">
+              Email Verification Needed
+            </h5>
+          </div>
+          <div className="p-6">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-yellow-100 border border-yellow-400 rounded-md p-4">
+              <div className="text-yellow-900">
+                <h6 className="font-semibold mb-1">Email Not Verified</h6>
+                <p className="mb-0">
+                  We noticed that your email is not verified. Verifying your
+                  email ensures better security and access to all features.
+                </p>
+              </div>
+              <button
+                className="mt-4 sm:mt-0 sm:ml-4 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded transition duration-200"
+                onClick={() => navigate("/profile-setting")}
+              >
+                Verify Now
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Profile Card */}
       <div className="bg-white border border-gray-300 shadow-md rounded-lg p-6 mb-6">

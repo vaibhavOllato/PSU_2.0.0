@@ -55,7 +55,6 @@
 //       setUserName(userData.first_name);
 //     }
 //   }, []);
-  
 
 //   return (
 //     <header
@@ -137,8 +136,6 @@
 //   );
 // }
 
-
-
 import { useState, useEffect } from "react";
 import {
   Bell,
@@ -153,7 +150,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import LogoutModal from "../components/LogoutModal";
 import companyLogo from "../assets/companyLogo2.png";
-// import NotificationDropdown from "../components/NotificationDropdown"; 
+// import NotificationDropdown from "../components/NotificationDropdown";
 
 export default function Header({ toggleMobileSidebar }) {
   const [userName, setUserName] = useState("");
@@ -171,7 +168,7 @@ export default function Header({ toggleMobileSidebar }) {
   }, []);
 
   return (
-    <header className="bg-gray-900 text-white p-4 fixed top-0 left-0 right-0 h-16 flex items-center justify-between shadow-md z-50">
+    <header className="bg-primary text-white p-4 fixed top-0 left-0 right-0 h-16 flex items-center justify-between shadow-md z-50">
       <div className="flex items-center space-x-3">
         {/* <button
           className="block md:hidden p-2 text-white"
@@ -191,8 +188,7 @@ export default function Header({ toggleMobileSidebar }) {
         <div className="hidden md:flex items-center">
           <img src={companyLogo} alt="Company Logo" className="h-11 ml-10" />
           <h1 className="text-lg font-semibold ml-36 whitespace-nowrap">
-          Ollato's Mind Mapping Programme
-
+            Ollato's Mind Mapping Programme
           </h1>
         </div>
       </div>

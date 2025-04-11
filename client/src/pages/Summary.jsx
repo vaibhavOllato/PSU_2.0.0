@@ -126,8 +126,6 @@ const Summary = () => {
             lang: "en",
           }),
         });
-        
-        
 
         const data = await response.json();
 

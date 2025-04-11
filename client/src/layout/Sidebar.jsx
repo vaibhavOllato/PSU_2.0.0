@@ -1,5 +1,3 @@
-
-
 // import { Link, useLocation } from "react-router-dom";
 // import {
 //   Menu,
@@ -72,7 +70,6 @@
 //     </div>
 //   );
 // }
-
 
 // import { Link, useLocation } from "react-router-dom";
 // import {
@@ -158,7 +155,6 @@
 //     </div>
 //   );
 // }
-
 
 // import { Link, useLocation } from "react-router-dom";
 // import {
@@ -250,9 +246,6 @@
 //   );
 // }
 
-
-
-
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
@@ -300,7 +293,7 @@ export default function Sidebar({ isOpen, toggleSidebar, isMobile }) {
   return (
     <>
       <div
-        className={`bg-gray-800 text-white fixed top-0 left-0 h-full transition-all duration-300 shadow-lg z-50
+        className={`bg-primary text-white fixed top-0 left-0 h-full transition-all duration-300 shadow-lg z-50
         ${isMobile ? "w-64" : isOpen ? "w-64" : "w-16"}
         ${isMobile && !isOpen ? "hidden" : ""}
       `}
@@ -335,7 +328,7 @@ export default function Sidebar({ isOpen, toggleSidebar, isMobile }) {
                   className={`flex items-center p-3 rounded-md transition-all duration-300 
                   ${
                     isActive
-                      ? "bg-gray-700 text-yellow-400 border-l-4 border-yellow-400"
+                      ? "bg-gray-700 text-white border-l-4 border-blue-400"
                       : "hover:bg-gray-700 hover:ml-2"
                   }`}
                   data-tooltip-id={!isOpen ? `tooltip-${item.name}` : undefined}

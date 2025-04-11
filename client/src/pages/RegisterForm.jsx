@@ -1,116 +1,9 @@
-// import { useState } from "react";
-// import { Eye, EyeOff } from "lucide-react";
-// import { Link } from "react-router-dom"; // Import Link for navigation
-// import companyLogo from "../assets/companyLogo2.png";
-
-// export default function RegisterForm() {
-//   const [showPassword, setShowPassword] = useState(false);
-
-//   return (
-//     <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4 overflow-y-auto">
-//       {/* Parent Wrapper with Scroll */}
-//       <div className="flex flex-col md:flex-row w-full max-w-5xl bg-white shadow-lg rounded-lg overflow-hidden min-h-[500px]">
-
-//         {/* Left Side (Company Logo) */}
-//         <div className="w-full md:w-1/2 bg-gray-900 flex flex-col items-center justify-center py-6 text-white min-h-[250px] sm:min-h-[300px]">
-//           <img src={companyLogo} alt="Company Logo" className="w-32 md:w-60" />
-//           <h1 className="text-lg md:text-2xl font-bold mt-2 text-center">Public Undertaking Service</h1>
-//         </div>
-
-//         {/* Right Side - Form */}
-//         <div className="w-full md:w-1/2 flex items-center justify-center p-6 overflow-y-auto">
-//           <form className="w-full max-w-md">
-//             <h2 className="text-2xl font-semibold mb-6 text-center">Register</h2>
-
-//             {/* First Name & Last Name */}
-//             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-//               <div className="w-full md:w-1/2">
-//                 <label className="block text-gray-700 text-sm font-bold mb-2">First Name</label>
-//                 <input type="text" className="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500" placeholder="Enter first name"/>
-//               </div>
-//               <div className="w-full md:w-1/2">
-//                 <label className="block text-gray-700 text-sm font-bold mb-2">Last Name</label>
-//                 <input type="text" className="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500" placeholder="Enter last name"/>
-//               </div>
-//             </div>
-
-//             {/* Date of Birth & Gender */}
-//             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mt-4">
-//               <div className="w-full md:w-1/2">
-//                 <label className="block text-gray-700 text-sm font-bold mb-2">Date of Birth</label>
-//                 <input type="date" className="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500"/>
-//               </div>
-//               <div className="w-full md:w-1/2">
-//                 <label className="block text-gray-700 text-sm font-bold mb-2">Gender</label>
-//                 <select className="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500">
-//                   <option value="">Select Gender</option>
-//                   <option value="male">Male</option>
-//                   <option value="female">Female</option>
-//                   <option value="other">Other</option>
-//                 </select>
-//               </div>
-//             </div>
-
-//             {/* Mobile Number & Role */}
-//             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mt-4">
-//               {/* Mobile Number with OTP Button */}
-//               <div className="w-full md:w-1/2">
-//                 <label className="block text-gray-700 text-sm font-bold mb-2">Mobile No</label>
-//                 <div className="flex border border-gray-300 rounded focus-within:ring-2 focus-within:ring-blue-500">
-//                   <input type="tel" className="w-full p-2 focus:outline-none rounded-l" placeholder="Enter mobile no"/>
-//                   <button type="button" className="bg-green-600 text-white px-3 rounded-r hover:bg-green-700">OTP</button>
-//                 </div>
-//               </div>
-
-//               {/* Role Selection */}
-//               <div className="w-full md:w-1/2">
-//                 <label className="block text-gray-700 text-sm font-bold mb-2">Role</label>
-//                 <select className="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500">
-//                   <option value="">Select Role</option>
-//                   <option value="upper">Upper</option>
-//                   <option value="middle">Middle</option>
-//                   <option value="lower">Lower</option>
-//                 </select>
-//               </div>
-//             </div>
-
-//             {/* Email & Password */}
-//             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mt-4">
-//               <div className="w-full md:w-1/2">
-//                 <label className="block text-gray-700 text-sm font-bold mb-2">Email</label>
-//                 <input type="email" className="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500" placeholder="Enter your email"/>
-//               </div>
-//               <div className="w-full md:w-1/2 relative">
-//                 <label className="block text-gray-700 text-sm font-bold mb-2">Password</label>
-//                 <div className="flex border border-gray-300 rounded focus-within:ring-2 focus-within:ring-blue-500">
-//                   <input type={showPassword ? "text" : "password"} className="w-full p-2 focus:outline-none rounded-l" placeholder="Enter your password"/>
-//                   <button type="button" className="px-3 flex items-center bg-gray-200 rounded-r" onClick={() => setShowPassword(!showPassword)}>
-//                     {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
-//                   </button>
-//                 </div>
-//               </div>
-//             </div>
-
-//             {/* Register Button */}
-//             <button type="submit" className="w-full bg-yellow-600 text-white p-2 rounded hover:bg-yellow-700 mt-6">Register</button>
-
-//             {/* Already Registered? Login */}
-//             <p className="text-center text-gray-600 mt-4">
-//               Already registered?{" "}
-//               <Link to="/login" className="text-blue-600 hover:underline">Login</Link>
-//             </p>
-//           </form>
-//         </div>
-
-//       </div>
-//     </div>
-//   );
-// }
-
 import { useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 import { Link } from "react-router-dom";
 import companyLogo from "../assets/companyLogo2.png";
+import { useNotification } from "../context/NotificationProvider";
+
 
 export default function RegisterForm() {
   const [formData, setFormData] = useState({
@@ -132,6 +25,10 @@ export default function RegisterForm() {
   const [loading, setLoading] = useState(false);
   const [otpSent, setOtpSent] = useState(false);
   const [message, setMessage] = useState({ type: "", text: "" });
+  const apiUrl = import.meta.env.VITE_APP_API_BASE_URL;
+  const { triggerNotification } = useNotification(); // Use the notification hook
+
+
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -149,7 +46,7 @@ export default function RegisterForm() {
     setMessage({ type: "", text: "" });
 
     try {
-      const response = await fetch("http://localhost:3000/api/auth/send-otp", {
+      const response = await fetch(`${apiUrl}/api/auth/send-otp`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ phone_number: formData.phone_number }),
@@ -180,7 +77,7 @@ export default function RegisterForm() {
     setMessage({ type: "", text: "" });
 
     try {
-      const response = await fetch("http://localhost:3000/api/auth/register", {
+      const response = await fetch(`${apiUrl}/api/auth/register`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -227,7 +124,7 @@ export default function RegisterForm() {
     <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4 overflow-y-auto">
       <div className="flex flex-col md:flex-row w-full max-w-5xl bg-white shadow-lg rounded-lg overflow-hidden min-h-[500px]">
         {/* Left Side - Company Logo */}
-        <div className="w-full md:w-1/2 bg-gray-900 flex flex-col items-center justify-center py-6 text-white min-h-[250px] sm:min-h-[300px]">
+        <div className="w-full md:w-1/2 bg-primary flex flex-col items-center justify-center py-6 text-white min-h-[250px] sm:min-h-[300px]">
           <img src={companyLogo} alt="Company Logo" className="w-32 md:w-60" />
           <h1 className="text-lg md:text-2xl font-bold mt-2 text-center">
             Public Undertaking Service
@@ -237,7 +134,7 @@ export default function RegisterForm() {
         {/* Right Side - Register Form */}
         <div className="w-full md:w-1/2 flex items-center justify-center p-6 overflow-y-auto">
           <form className="w-full max-w-md" onSubmit={handleSubmit}>
-            <h2 className="text-2xl font-semibold mb-6 text-center">
+            <h2 className="text-2xl font-semibold mb-6 text-center text-primary">
               Register
             </h2>
 
@@ -266,7 +163,7 @@ export default function RegisterForm() {
                   value={formData.first_name}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border border-gray-300 rounded"
+                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-300"
                   placeholder="Enter first name"
                 />
               </div>
@@ -280,7 +177,7 @@ export default function RegisterForm() {
                   value={formData.last_name}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border border-gray-300 rounded"
+                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-300"
                   placeholder="Enter last name"
                 />
               </div>
@@ -298,7 +195,7 @@ export default function RegisterForm() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border border-gray-300 rounded"
+                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-300"
                   placeholder="Enter email"
                 />
               </div>
@@ -313,7 +210,7 @@ export default function RegisterForm() {
                     value={formData.password}
                     onChange={handleChange}
                     required
-                    className="w-full p-2 border border-gray-300 rounded pr-10"
+                    className="w-full p-2 border border-gray-300 rounded pr-10 focus:outline-none focus:ring-2 focus:ring-rose-300"
                     placeholder="Enter password"
                   />
                   <button
@@ -338,7 +235,7 @@ export default function RegisterForm() {
                   value={formData.role}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border border-gray-300 rounded"
+                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-300"
                 >
                   <option value="">Select Role</option>
                   <option value="upper">Upper</option>
@@ -355,7 +252,7 @@ export default function RegisterForm() {
                   value={formData.gender}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border border-gray-300 rounded"
+                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-300"
                 >
                   <option value="">Select Gender</option>
                   <option value="male">Male</option>
@@ -379,13 +276,13 @@ export default function RegisterForm() {
                     value={formData.phone_number}
                     onChange={handleChange}
                     required
-                    className="w-full p-2 focus:outline-none rounded-l"
+                    className="w-full p-2  rounded-l focus:outline-none focus:ring-2 focus:ring-rose-300"
                     placeholder="Enter mobile no"
                   />
                   <button
                     type="button"
                     onClick={handleGetOtp}
-                    className="bg-green-600 text-white px-3 rounded-r hover:bg-green-700"
+                    className="bg-green-600 text-white font-thin px-3 rounded-r hover:bg-green-700"
                   >
                     {otpSent ? "Resend OTP" : "Get OTP"}
                   </button>
@@ -403,7 +300,7 @@ export default function RegisterForm() {
                   value={formData.DOB}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500"
+                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-300"
                 />
               </div>
             </div>
@@ -411,7 +308,7 @@ export default function RegisterForm() {
             {/* Register Button */}
             <button
               type="submit"
-              className="w-full bg-yellow-600 text-white p-2 rounded hover:bg-yellow-700 mt-6"
+              className="w-full bg-primary text-white p-2 rounded hover:bg-[#4D2B46] mt-6"
               disabled={loading}
             >
               {loading ? "Registering..." : "Register"}
