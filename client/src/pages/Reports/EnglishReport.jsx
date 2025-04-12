@@ -3,7 +3,7 @@ import companyLogo from "../../assets/companyLogo.png";
 import coverImg from "../../assets/cover.png";
 // import qrImg from "../../assets/qr-code.png";
 import secondImg from "../../assets/secondImg.png";
-import reportData from "../../public/reportData.json";
+import reportData from "../../data/reportData.json";
 import axios from "axios";
 import {
   Document,
