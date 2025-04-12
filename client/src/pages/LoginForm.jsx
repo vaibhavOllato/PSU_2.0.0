@@ -71,8 +71,15 @@ export default function LoginForm() {
         {/* Left Side (Company Logo) */}
         <div className="w-full md:w-1/2 bg-primary flex flex-col items-center justify-center py-6 text-white">
           <img src={companyLogo} alt="Company Logo" className="w-32 md:w-60" />
-          <h1 className="text-lg md:text-2xl font-bold mt-2 text-center">
+          {/* <h1 className="text-lg md:text-2xl font-bold mt-2 text-center">
+            Welcome to <hr className="border-none" />
             Public Undertaking Service
+          </h1> */}
+          <h1 className="text-xl md:text-3xl font-bold mt-2 text-center text-white">
+            Welcome to <br />
+            <span className="text-textSecondary">
+              Public Undertaking Service
+            </span>
           </h1>
         </div>
 

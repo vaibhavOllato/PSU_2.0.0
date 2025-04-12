@@ -150,13 +150,13 @@ import {
 import { useNavigate } from "react-router-dom";
 import LogoutModal from "../components/LogoutModal";
 import companyLogo from "../assets/companyLogo2.png";
-// import NotificationDropdown from "../components/NotificationDropdown";
+import NotificationDropdown from "../components/NotificationDropdown";
 
 export default function Header({ toggleMobileSidebar }) {
   const [userName, setUserName] = useState("");
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [logoutOpen, setLogoutOpen] = useState(false);
-  // const [showNotifications, setShowNotifications] = useState(false);
+  const [showNotifications, setShowNotifications] = useState(false);
 
   const navigate = useNavigate();
 
@@ -197,7 +197,7 @@ export default function Header({ toggleMobileSidebar }) {
         <div className="relative">
           <button
             className="relative z-50"
-            // onClick={() => setShowNotifications((prev) => !prev)}
+            onClick={() => setShowNotifications((prev) => !prev)}
           >
             <Bell
               size={24}
@@ -208,9 +208,9 @@ export default function Header({ toggleMobileSidebar }) {
             </span>
           </button>
 
-          {/* {showNotifications && (
+          {showNotifications && (
             <NotificationDropdown onClose={() => setShowNotifications(false)} />
-          )} */}
+          )}
         </div>
 
         {/* User Profile & Dropdown */}

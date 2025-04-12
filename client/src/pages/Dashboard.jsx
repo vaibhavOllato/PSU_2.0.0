@@ -165,7 +165,7 @@ export default function Dashboard() {
                 {/* Modal Header */}
                 <div className="flex items-center space-x-3 border-b pb-4">
                   <UserCircle size={50} className="text-secondary" />
-                  <h2 className="text-xl font-semibold text-primary">
+                  <h2 className="text-xl font-semibold text-secondary">
                     {/* {user?.name || "Student"} */}
                     {userName || "Client name"},
                   </h2>
