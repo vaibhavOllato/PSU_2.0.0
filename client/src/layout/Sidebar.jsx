@@ -328,7 +328,7 @@ export default function Sidebar({ isOpen, toggleSidebar, isMobile }) {
                   className={`flex items-center p-3 rounded-md transition-all duration-300 
                   ${
                     isActive
-                      ? "bg-gray-700 text-white border-l-4 border-blue-400"
+                      ? "bg-gray-700 text-white border-l-4 border-textSecondary"
                       : "hover:bg-gray-700 hover:ml-2"
                   }`}
                   data-tooltip-id={!isOpen ? `tooltip-${item.name}` : undefined}
@@ -356,7 +356,7 @@ export default function Sidebar({ isOpen, toggleSidebar, isMobile }) {
         {/* Logout Button */}
         <button
           onClick={() => setIsLogoutOpen(true)}
-          className="flex items-center justify-center my-4 p-2 bg-textSecondary hover:bg-yellow-900 text-white rounded-md transition-all duration-300 mx-auto"
+          className="flex items-center justify-center my-4 p-2 bg-textSecondary-hover hover:bg-textSecondary text-white rounded-md transition-all duration-300 mx-auto"
         >
           <LogOut size={24} />
           {isOpen && <span className="ml-3">Logout</span>}

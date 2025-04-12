@@ -23,6 +23,9 @@ import { NotificationProvider } from "./context/NotificationProvider";
 import PaymentSuccessPage from "./pages/PaymentSuccessPage";
 import PaymentFailurePage from "./pages/PaymentFailurePage";
 import AssessmentSubmitted from "./pages/AssessmentSubmitted";
+import ExpertDetails from "./pages/sessions/ExpertDetail";
+import ProtectedRoute from "./routes/ProtectedRoute";
+
 if (!window.Buffer) window.Buffer = Buffer;
 
 export default function App() {
@@ -50,9 +53,17 @@ export default function App() {
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="package" element={<Package />} />{" "}
               <Route path="language" element={<Language />} />{" "}
-              <Route path="instructions" element={<Instructions />} />{" "}
-              <Route path="assessment" element={<AssessmentComponent />} />{" "}
-              <Route path="assessment-submitted" element={<AssessmentSubmitted />} />{" "}
+              <Route path="instructions" element={<Instructions />} />
+              {/* <Route path="assessment" element={<AssessmentComponent />} /> */}
+              <Route
+                path="assessment"
+                element={
+                  <ProtectedRoute>
+                    <AssessmentComponent />
+                  </ProtectedRoute>
+                }
+              />
+              <Route path="assessment-submitted" element={<AssessmentSubmitted />} />
               <Route path="report" element={<Report />} />
               <Route
                 path="english-report"
@@ -64,6 +75,9 @@ export default function App() {
               />
               <Route path="summary" element={<Summary />} />
               <Route path="book-session" element={<BookSession />} />
+            {/* <ExpertDetails/> */}
+            <Route path="expert-details/:id" element={<ExpertDetails />} />
+
               <Route
                 path="session-management"
                 element={<SessionManagement />}

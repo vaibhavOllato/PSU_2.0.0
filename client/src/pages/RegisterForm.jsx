@@ -3,9 +3,13 @@ import { Eye, EyeOff } from "lucide-react";
 import { Link } from "react-router-dom";
 import companyLogo from "../assets/companyLogo2.png";
 import { useNotification } from "../context/NotificationProvider";
-
+import { CheckCircle } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 export default function RegisterForm() {
+  const navigate = useNavigate(); // Hook for navigation
+  const [otpVerified, setOtpVerified] = useState(false);
+  const [otpModalOpen, setOtpModalOpen] = useState(false);
   const [formData, setFormData] = useState({
     panel_name: "psu",
     first_name: "",
@@ -28,46 +32,39 @@ export default function RegisterForm() {
   const apiUrl = import.meta.env.VITE_APP_API_BASE_URL;
   const { triggerNotification } = useNotification(); // Use the notification hook
 
-
-
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleGetOtp = async () => {
     if (!formData.phone_number) {
-      setMessage({
-        type: "error",
-        text: "Please enter a valid mobile number!",
-      });
+      triggerNotification("Please enter a valid mobile number!");
       return;
     }
 
-    setMessage({ type: "", text: "" });
-
     try {
-      const response = await fetch(`${apiUrl}/api/auth/send-otp`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ phone_number: formData.phone_number }),
-      });
+      const response = await fetch(
+        `${apiUrl}/api/notification/otp/send-phone-otp`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ phoneNumber: formData.phone_number }), // ✅ Corrected key
+        }
+      );
 
       const data = await response.json();
+      // console.log(response, data);
 
-      if (response.ok) {
+      if (response.ok && data.message === "OTP sent successfully.") {
         setOtpSent(true);
-        setMessage({ type: "success", text: "OTP sent successfully!" });
+        setOtpModalOpen(true); // ✅ Open modal to enter OTP
+        triggerNotification("OTP sent successfully!");
       } else {
-        setMessage({
-          type: "error",
-          text: data.message || "Failed to send OTP!",
-        });
+        triggerNotification(data.message || "Failed to send OTP!");
       }
     } catch (error) {
-      setMessage({
-        type: "error",
-        text: "Something went wrong. Try again later!",
-      });
+      console.error("Error sending OTP:", error);
+      triggerNotification("Something went wrong. Try again later!");
     }
   };
 
@@ -90,6 +87,8 @@ export default function RegisterForm() {
           type: "success",
           text: "Registration successful! Please login.",
         });
+        triggerNotification("Registration successful! Please login.");
+
         setFormData({
           panel_name: "psu",
           first_name: "",
@@ -110,6 +109,7 @@ export default function RegisterForm() {
           text: data.message || "Registration failed!",
         });
       }
+      setTimeout(() => navigate("/"), 2000);
     } catch (error) {
       setMessage({
         type: "error",
@@ -117,6 +117,40 @@ export default function RegisterForm() {
       });
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleVerifyOtp = async () => {
+    if (!formData.otp) {
+      triggerNotification("Please enter the OTP!");
+      return;
+    }
+
+    try {
+      const response = await fetch(
+        `${apiUrl}/api/notification/otp/verify-phone-otp`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            phoneNumber: formData.phone_number, // Fixed key name
+            otp: formData.otp,
+          }),
+        }
+      );
+
+      const data = await response.json(); // Parse response
+
+      if (response.ok) {
+        setOtpVerified(true);
+        setOtpModalOpen(false);
+        triggerNotification("✅ Mobile number verified!");
+      } else {
+        triggerNotification(`❌ ${data.message || "Invalid OTP. Try again!"}`);
+      }
+    } catch (error) {
+      triggerNotification("❌ Something went wrong. Try again later!");
+      console.error("OTP Verification Error:", error);
     }
   };
 
@@ -134,7 +168,7 @@ export default function RegisterForm() {
         {/* Right Side - Register Form */}
         <div className="w-full md:w-1/2 flex items-center justify-center p-6 overflow-y-auto">
           <form className="w-full max-w-md" onSubmit={handleSubmit}>
-            <h2 className="text-2xl font-semibold mb-6 text-center text-primary">
+            <h2 className="text-2xl font-semibold mb-6 text-center text-textSecondary">
               Register
             </h2>
 
@@ -163,7 +197,7 @@ export default function RegisterForm() {
                   value={formData.first_name}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-300"
+                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-cyan-600"
                   placeholder="Enter first name"
                 />
               </div>
@@ -177,7 +211,7 @@ export default function RegisterForm() {
                   value={formData.last_name}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-300"
+                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-cyan-600"
                   placeholder="Enter last name"
                 />
               </div>
@@ -195,7 +229,7 @@ export default function RegisterForm() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-300"
+                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-cyan-600"
                   placeholder="Enter email"
                 />
               </div>
@@ -210,7 +244,7 @@ export default function RegisterForm() {
                     value={formData.password}
                     onChange={handleChange}
                     required
-                    className="w-full p-2 border border-gray-300 rounded pr-10 focus:outline-none focus:ring-2 focus:ring-rose-300"
+                    className="w-full p-2 border border-gray-300 rounded pr-10 focus:outline-none focus:ring-2 focus:ring-cyan-600"
                     placeholder="Enter password"
                   />
                   <button
@@ -235,7 +269,7 @@ export default function RegisterForm() {
                   value={formData.role}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-300"
+                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-cyan-600"
                 >
                   <option value="">Select Role</option>
                   <option value="upper">Upper</option>
@@ -252,7 +286,7 @@ export default function RegisterForm() {
                   value={formData.gender}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-300"
+                  className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-cyan-600"
                 >
                   <option value="">Select Gender</option>
                   <option value="male">Male</option>
@@ -276,17 +310,100 @@ export default function RegisterForm() {
                     value={formData.phone_number}
                     onChange={handleChange}
                     required
-                    className="w-full p-2  rounded-l focus:outline-none focus:ring-2 focus:ring-rose-300"
+                    disabled={otpVerified}
+                    className="w-full p-2  rounded-l focus:outline-none focus:ring-2 focus:ring-cyan-600"
                     placeholder="Enter mobile no"
                   />
-                  <button
+                  {/* <button
                     type="button"
                     onClick={handleGetOtp}
                     className="bg-green-600 text-white font-thin px-3 rounded-r hover:bg-green-700"
                   >
                     {otpSent ? "Resend OTP" : "Get OTP"}
-                  </button>
+                  </button> */}
+                  {otpVerified ? (
+                    <CheckCircle
+                      className="text-green-600 mt-2 mr-2"
+                      size={24}
+                    />
+                  ) : (
+                    <button
+                      type="button"
+                      className="bg-secondary font-mono text-white p-2 rounded"
+                      onClick={handleGetOtp}
+                    >
+                      {otpSent ? "Resend" : "OTP"}
+                    </button>
+                  )}
                 </div>
+
+                {/* {otpModalOpen && (
+                  <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+                    <div className="bg-white p-6 rounded shadow-lg">
+                      <h3 className="text-xl font-semibold mb-4 text">Enter OTP</h3>
+                      <input
+                        type="text"
+                        name="otp"
+                        value={formData.otp}
+                        onChange={handleChange}
+                        className="w-full p-2 border border-gray-300 rounded mb-4"
+                        placeholder="Enter OTP"
+                      />
+                      <div className="flex justify-end gap-2">
+                        <button
+                          className="bg-gray-500 text-white p-2 rounded"
+                          onClick={() => setOtpModalOpen(false)}
+                        >
+                          Cancel
+                        </button>
+                        <button
+                          className="bg-secondary text-white p-2 rounded"
+                          onClick={handleVerifyOtp}
+                        >
+                          Verify
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )} */}
+
+                {otpModalOpen && (
+                  <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+                    <div className="bg-white p-6 rounded-2xl shadow-2xl w-full max-w-sm animate-scaleIn">
+                      <h3 className="text-2xl font-bold text-center text-textSecondary mb-4">
+                        🔐 Enter OTP
+                      </h3>
+                      <p className="text-gray-500 text-sm text-center mb-6">
+                        Please enter the OTP sent to your mobile number.
+                      </p>
+
+                      <input
+                        type="text"
+                        name="otp"
+                        value={formData.otp}
+                        onChange={handleChange}
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-600 mb-6 text-center text-lg tracking-widest"
+                        placeholder="123456"
+                        maxLength={6}
+                      />
+
+                      <div className="flex justify-end gap-3">
+                        <button
+                          className="bg-gray-300 hover:bg-gray-400 text-gray-800 px-4 py-2 rounded-lg transition-all duration-200"
+                          onClick={() => setOtpModalOpen(false)}
+                        >
+                          Cancel
+                        </button>
+                        <button
+                          className="bg-primary hover:bg-primary-hover text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200"
+                          onClick={handleVerifyOtp}
+                        >
+                          Verify OTP
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Date of Birth */}
@@ -308,7 +425,7 @@ export default function RegisterForm() {
             {/* Register Button */}
             <button
               type="submit"
-              className="w-full bg-primary text-white p-2 rounded hover:bg-[#4D2B46] mt-6"
+              className="w-full bg-primary text-white p-2 rounded hover:bg-primary-hover mt-6"
               disabled={loading}
             >
               {loading ? "Registering..." : "Register"}

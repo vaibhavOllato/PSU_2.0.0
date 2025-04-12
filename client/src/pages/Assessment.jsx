@@ -2,8 +2,9 @@ import React, { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "../context/AuthContext";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+// import { ToastContainer, toast } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
+import { useNotification } from "../context/NotificationProvider";
 
 const Assessment = () => {
   const pageRef = useRef(null);
@@ -15,6 +16,8 @@ const Assessment = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const { triggerNotification } = useNotification(); // Use the notification hook
+
 
   const navigate = useNavigate();
   const userData = JSON.parse(localStorage.getItem("user"));
@@ -116,7 +119,8 @@ const Assessment = () => {
       return;
     }
     if (!user_id) {
-      toast.error("User not found. Please log in again.");
+      // toast.error("User not found. Please log in again.");
+      triggerNotification("User not found. Please log in again.");
       return;
     }
     const formattedAnswers = Object.keys(answers).map((key) => ({
@@ -135,7 +139,8 @@ const Assessment = () => {
         exam_date: formattedDate,
       });
       localStorage.removeItem("answers");
-      toast.success("Assessment submitted successfully!");
+      // toast.success("Assessment submitted successfully!");
+      triggerNotification("Assessment submitted successfully!");
       navigate("/assessment-submitted");
     } catch (error) {
       toast.error("Error submitting assessment. Please try again.");
@@ -156,7 +161,10 @@ const Assessment = () => {
           });
         }, 50);
       } else {
-        toast.error("Please answer all questions before proceeding.");
+        // toast.error("Please answer all questions before proceeding.");
+        triggerNotification(
+          "Please answer all questions on this page before proceeding."
+        );
       }
     }
   };
@@ -246,7 +254,7 @@ const Assessment = () => {
             </div>
           </div>
         </div>
-        <ToastContainer />
+        {/* <ToastContainer /> */}
       </div>
     </div>
   );

@@ -6,8 +6,7 @@ const Report = () => {
   const userData = JSON.parse(localStorage.getItem("user"));
   const apiUrl3 = import.meta.env.VITE_APP_API_BASE_URL;
   const userId = userData?.userId || "";
-  const role = "students";
-  // const role = userData?.role || "";
+  const role = userData?.role || "";
   const apiUrl = `${apiUrl3}/api/scoring/get-user-score`;
   const [language, setLanguage] = useState("");
   const [tab, setTab] = useState("en");
@@ -33,7 +32,7 @@ const Report = () => {
       try {
         const response = await axios.post(apiUrl, {
           user_id: userId,
-          panel_name: "pps",
+          panel_name: "psu",
           role: role,
           lang: "en",
         });

@@ -20,7 +20,7 @@ export default function ForgotPasswordForm() {
         {/* Right Side - Form */}
         <div className="w-full md:w-1/2 flex items-center justify-center p-6">
           <form className="w-full max-w-md">
-            <h2 className="text-2xl font-semibold mb-6 text-center text-primary">Forgot Password?</h2>
+            <h2 className="text-2xl font-semibold mb-6 text-center text-textSecondary">Forgot Password?</h2>
 
             {/* Email Input */}
             <div className="mb-4">

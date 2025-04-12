@@ -1,46 +1,3 @@
-// import { useState } from "react";
-// import { useNavigate } from "react-router-dom";
-
-// const LogoutModal = ({ open, handleClose }) => {
-//   const navigate = useNavigate();
-
-//   const handleLogout = () => {
-//     localStorage.clear();
-//     handleClose();
-//     navigate("/");
-//   };
-
-//   if (!open) return null;
-
-//   return (
-//     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-30 backdrop-blur-sm z-50">
-//       <div className="bg-white p-6 rounded-lg shadow-lg w-96">
-//         <h2 className="text-lg font-semibold text-gray-800">Confirm Logout</h2>
-//         <p className="text-gray-600 mt-2">Are you sure you want to log out?</p>
-
-//         <div className="flex justify-end mt-4 space-x-2">
-//           <button
-//             onClick={handleClose}
-//             className="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400 transition"
-//           >
-//             Cancel
-//           </button>
-//           <button
-//             onClick={handleLogout}
-//             className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition"
-//           >
-//             Logout
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default LogoutModal;
-
-
-
 import { useNavigate } from "react-router-dom";
 import { FaSignOutAlt, FaTimes } from "react-icons/fa";
 
@@ -67,11 +24,11 @@ const LogoutModal = ({ open, handleClose }) => {
         </button>
 
         {/* Icon */}
-        <div className="flex justify-center items-center bg-red-100 text-yellow-600 w-12 h-12 rounded-full mx-auto mb-4">
+        <div className="flex justify-center items-center bg-red-100 text-textSecondary w-12 h-12 rounded-full mx-auto mb-4">
           <FaSignOutAlt size={24} />
         </div>
 
-        <h2 className="text-xl font-semibold text-center text-yellow-800">Log Out?</h2>
+        <h2 className="text-xl font-semibold text-center text-textSecondary">Log Out?</h2>
         <p className="text-center text-gray-600 mt-2">
           Are you sure you want to end your session?
         </p>
@@ -85,7 +42,7 @@ const LogoutModal = ({ open, handleClose }) => {
           </button>
           <button
             onClick={handleLogout}
-            className="w-1/2 py-2 rounded-xl bg-yellow-700 text-white hover:bg-yellow-800 transition font-medium"
+            className="w-1/2 py-2 rounded-xl bg-textSecondary text-white hover:bg-textSecondary-hover transition font-medium"
           >
             Logout
           </button>

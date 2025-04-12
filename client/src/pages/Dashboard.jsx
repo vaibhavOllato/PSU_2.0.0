@@ -69,14 +69,14 @@ export default function Dashboard() {
 
       {user && !user.isVerified && (
         <div className="rounded-lg shadow-lg mb-4 border border-gray-200 bg-white">
-          <div className="flex items-center justify-between px-6 py-3 bg-blue-600 rounded-t-lg">
+          <div className="flex items-center justify-between px-6 py-3 bg-secondary rounded-t-lg">
             <h5 className="text-white text-lg font-semibold">
               Email Verification Needed
             </h5>
           </div>
           <div className="p-6">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-yellow-100 border border-yellow-400 rounded-md p-4">
-              <div className="text-yellow-900">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-green-200 border border-green-400 rounded-md p-4">
+              <div className="text-gray-500">
                 <h6 className="font-semibold mb-1">Email Not Verified</h6>
                 <p className="mb-0">
                   We noticed that your email is not verified. Verifying your
@@ -84,7 +84,7 @@ export default function Dashboard() {
                 </p>
               </div>
               <button
-                className="mt-4 sm:mt-0 sm:ml-4 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded transition duration-200"
+                className="mt-4 sm:mt-0 sm:ml-4 bg-textSecondary hover:bg-textSecondary-hover text-white text-sm font-medium px-4 py-2 rounded transition duration-200"
                 onClick={() => navigate("/profile-setting")}
               >
                 Verify Now

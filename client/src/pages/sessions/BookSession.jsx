@@ -314,7 +314,7 @@ const BookSession = () => {
         <div className="relative w-64">
           <input
             type="text"
-            className="w-full px-4 py-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"
+            className="w-full px-4 py-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-secondary"
             placeholder="Search counselors..."
             value={searchQuery}
             onChange={(e) => {
@@ -322,7 +322,7 @@ const BookSession = () => {
               setCurrentPage(1);
             }}
           />
-          <button className="absolute right-0 top-0 h-full px-4 bg-yellow-600 text-white rounded-r-lg hover:bg-yellow-700">
+          <button className="absolute right-0 top-0 h-full px-4 bg-secondary text-white rounded-r-lg hover:bg-secondary-hover">
             <Search className="w-5 h-5" />
           </button>
         </div>
@@ -330,7 +330,7 @@ const BookSession = () => {
 
       {isLoading ? (
         <div className="text-center py-10">
-          <div className="inline-block animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-yellow-500"></div>
+          <div className="inline-block animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-textSecondary"></div>
           <p className="mt-3 text-gray-600">Loading available experts...</p>
         </div>
       ) : error ? (
@@ -350,7 +350,7 @@ const BookSession = () => {
             Try searching with a different name or term.
           </p>
           <button
-            className="mt-3 px-4 py-2 border border-yellow-500 text-yellow-500 rounded hover:bg-yellow-50"
+            className="mt-3 px-4 py-2 border border-secondary text-textSecondary rounded hover:bg-background"
             onClick={() => {
               setSearchQuery("");
               setCurrentPage(1);
@@ -372,14 +372,14 @@ const BookSession = () => {
 
           {/* {totalPages > 1 && <PaginationControls />} */}
 
-          <div className="mt-6">
+          <div className="mt-6 ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {currentSessions.map((session) => (
                 <div
                   key={session.id}
                   className="border rounded-lg shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="flex p-4">
+                  <div className="flex p-4 bg-[#E4EFE7]">
                     <div className="p-2">
                       <img
                         src={session.image}
@@ -389,7 +389,7 @@ const BookSession = () => {
                     </div>
                     <div className="p-2 ml-4">
                       <div>
-                        <span className="text-lg font-bold text-yellow-900">
+                        <span className="text-lg font-bold text-textSecondary">
                           {session.name}
                         </span>
                       </div>
@@ -399,14 +399,29 @@ const BookSession = () => {
                         </span>
                       </div>
                       <div>
-                        <strong>Expertise:</strong>{" "}
-                        <span className="text-gray-700">
-                          {session.expertDetails?.expertise?.join(", ") ||
-                            "No expertise listed"}
-                        </span>
+                        <strong className="text-gray-400">Expertise:</strong>
+                        <div className="mt-1 flex flex-wrap gap-2">
+                          {session.expertDetails?.expertise?.length > 0 ? (
+                            session.expertDetails.expertise.map(
+                              (item, index) => (
+                                <span
+                                  key={index}
+                                  className="bg-secondary text-white px-3 py-1 rounded-full text-sm font-medium"
+                                >
+                                  {item}
+                                </span>
+                              )
+                            )
+                          ) : (
+                            <span className="text-gray-700">
+                              No expertise listed
+                            </span>
+                          )}
+                        </div>
                       </div>
-                      <div>
-                        <strong>Speaks:</strong>{" "}
+
+                      <div className="mt-2">
+                        <strong className="text-gray-400">Speaks:</strong>{" "}
                         <span className="text-gray-700">
                           {session.expertDetails?.languages?.join(", ") ||
                             "No languages listed"}
@@ -499,7 +514,7 @@ const BookSession = () => {
                           <div>
                             <button
                               type="button"
-                              className="px-4 py-2 bg-yellow-600 text-white rounded hover:bg-yellow-700 disabled:opacity-50"
+                              className="px-4 py-2 bg-textSecondary text-white rounded hover:bg-textSecondary-hover disabled:opacity-50"
                               onClick={() => handleBookNow(session.expertId)}
                               disabled={!session.onlineSlot}
                             >
@@ -543,7 +558,7 @@ const BookSession = () => {
                           <div>
                             <button
                               type="button"
-                              className="px-4 py-2 bg-yellow-600 text-white rounded hover:bg-yellow-700 disabled:opacity-50"
+                              className="px-4 py-2 bg-textSecondary text-white rounded hover:bg-textSecondary-hover disabled:opacity-50"
                               onClick={() => handleBookNow(session.expertId)}
                               disabled={!session.inPersonSlot}
                             >

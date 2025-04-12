@@ -14,6 +14,7 @@ import {
   FaTimes,
   FaCheck,
 } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 
 const parseDate = (dateStr) => {
@@ -325,7 +326,7 @@ const ExpertDetails = () => {
           <div className="flex items-center mb-4 md:mb-0">
             <button
               onClick={() => navigate(-1)}
-              className="mr-4 text-yellow-600 hover:text-yellow-800"
+              className="mr-4 text-textSecondary hover:text-textSecondary-hover"
             >
               <FaArrowLeft className="text-xl" />
             </button>
@@ -334,11 +335,11 @@ const ExpertDetails = () => {
               alt={`${expert.first_name} ${expert.last_name}`}
               className="rounded-full w-16 h-16 border-2 border-gray-700 mr-4"
             />
-            <h2 className="text-xl text-yellow-700 font-semibold">{`${expert.first_name} ${expert.last_name}`}</h2>
+            <h2 className="text-xl text-textSecondary font-semibold">{`${expert.first_name} ${expert.last_name}`}</h2>
           </div>
 
           <div className="w-full md:w-auto">
-            <h5 className="text-center font-bold text-red-500 mb-2">
+            <h5 className="text-center font-bold text-secondary mb-2">
               Mode of session
             </h5>
             <div className="flex flex-wrap justify-center gap-2">
@@ -349,8 +350,8 @@ const ExpertDetails = () => {
                     key={index}
                     className={`px-4 py-2 rounded-lg text-sm md:text-base ${
                       selectedMode === mode.trim()
-                        ? "bg-yellow-600 text-white"
-                        : "border border-yellow-600 text-yellow-600"
+                        ? "bg-textSecondary text-white"
+                        : "border border-textSecondary text-textSecondary"
                     }`}
                     onClick={() => setSelectedMode(mode.trim())}
                   >
@@ -361,7 +362,7 @@ const ExpertDetails = () => {
                       <FaUser className="inline mr-1" />
                     )}
                     {mode.trim() === "call" && (
-                      <FaPhone className="inline mr-1" />
+                      <FaPhoneAlt className="inline mr-1" />
                     )}
                     {mode.trim()}
                   </button>
@@ -418,8 +419,8 @@ const ExpertDetails = () => {
                     key={index}
                     className={`px-4 py-2 rounded-lg flex items-center ${
                       selectedDuration === `${dur.trim()} mins`
-                        ? "bg-yellow-600 text-white"
-                        : "border border-yellow-600 text-yellow-600"
+                        ? "bg-textSecondary text-white"
+                        : "border border-textSecondary text-textSecondary-hover"
                     }`}
                     onClick={() => setSelectedDuration(`${dur.trim()} mins`)}
                   >
@@ -535,7 +536,7 @@ const ExpertDetails = () => {
           <div className="flex justify-center mt-6">
             <button
               onClick={() => setShowConfirmModal(true)}
-              className="px-8 py-3 bg-yellow-600 text-white rounded-lg text-lg hover:bg-yellow-700 disabled:opacity-50"
+              className="px-8 py-3 bg-textSecondary text-white rounded-lg text-lg hover:bg-textSecondary-hover disabled:opacity-50"
               disabled={!selectedStartTime}
             >
               Continue
@@ -548,7 +549,7 @@ const ExpertDetails = () => {
       {showConfirmModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white rounded-lg w-full max-w-md">
-            <div className="bg-teal-500 text-white rounded-t-lg p-4 flex justify-between items-center">
+            <div className="bg-secondary text-white rounded-t-lg p-4 flex justify-between items-center">
               <h5 className="text-lg font-semibold flex items-center">
                 <FaInfoCircle className="mr-2" />
                 Session Details

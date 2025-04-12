@@ -5,7 +5,6 @@ import companyLogo from "../assets/companyLogo2.png";
 import { useAuth } from "../context/AuthContext"; // Adjust path if needed
 import { useNotification } from "../context/NotificationProvider";
 
-
 export default function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -80,7 +79,7 @@ export default function LoginForm() {
         {/* Right Side - Form */}
         <div className="w-full md:w-1/2 flex items-center justify-center p-6">
           <form className="w-full max-w-md" onSubmit={handleLogin}>
-            <h2 className="text-2xl font-semibold mb-6 text-center text-primary">
+            <h2 className="text-2xl font-semibold mb-6 text-center text-textSecondary">
               Login
             </h2>
 
@@ -106,7 +105,7 @@ export default function LoginForm() {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-rose-300"
+                className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-cyan-600"
                 placeholder="Enter your email"
                 required
               />
@@ -117,7 +116,7 @@ export default function LoginForm() {
               <label className="block text-gray-700 text-sm font-bold mb-2">
                 Password <span className="text-red-500">*</span>
               </label>
-              <div className="flex border border-gray-300 rounded focus-within:ring-2 focus-within:ring-rose-300">
+              <div className="flex border border-gray-300 rounded focus-within:ring-2 focus-within:ring-cyan-600">
                 <input
                   type={showPassword ? "text" : "password"}
                   value={password}
@@ -139,22 +138,22 @@ export default function LoginForm() {
             {/* Login Button */}
             <button
               type="submit"
-              className="w-full bg-primary text-white p-2 rounded hover:bg-[#4D2B46] mt-6"
+              className="w-full bg-primary text-white p-2 rounded hover:bg-primary-hover mt-6"
             >
               Login
             </button>
 
             {/* Links Below the Login Button */}
             <div className="flex justify-between text-sm text-center mt-4">
-              <Link to="/login-otp" className="text-blue-600 hover:underline">
+              {/* <Link to="/login-otp" className="text-blue-600 hover:underline">
                 Login with OTP
-              </Link>
-              <Link
+              </Link> */}
+              {/* <Link
                 to="/forgot-password"
                 className="text-blue-600 hover:underline"
               >
                 Forgot Password?
-              </Link>
+              </Link> */}
             </div>
 
             {/* Register Link */}

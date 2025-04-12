@@ -11,7 +11,7 @@ export default {
         "secondary-hover": "#5f786f",
         textPrimary: "#708d81",
         textSecondary: "#dd6e42",
-
+        "textSecondary-hover": "#c85d3b",
         background: "#F8FAFC",
         cardBackground: "#FFFFFF",
 

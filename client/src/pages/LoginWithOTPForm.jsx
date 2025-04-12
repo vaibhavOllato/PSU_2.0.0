@@ -44,7 +44,7 @@ export default function LoginWithOTPForm() {
         {/* Right Side - Form */}
         <div className="w-full md:w-1/2 flex items-center justify-center p-6">
           <form className="w-full max-w-md">
-            <h2 className="text-2xl text-primary font-semibold mb-6 text-center">
+            <h2 className="text-2xl text-textSecondary font-semibold mb-6 text-center">
               Login with OTP
             </h2>
 
