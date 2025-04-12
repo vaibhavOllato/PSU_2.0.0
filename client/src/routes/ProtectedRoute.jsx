@@ -89,8 +89,6 @@
 
 // export default ProtectedRoute;
 
-
-
 import { useState, useEffect } from "react";
 import { Navigate } from "react-router-dom";
 
@@ -121,7 +119,9 @@ const ProtectedRoute = ({ children }) => {
     return (
       <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
         <div className="bg-white rounded-xl p-8 max-w-md w-full shadow-xl animate-scaleIn text-center">
-          <h2 className="text-2xl font-bold text-[#dd6e42] mb-3">Access Denied</h2>
+          <h2 className="text-2xl font-bold text-[#dd6e42] mb-3">
+            Access Denied
+          </h2>
           <p className="text-gray-700 mb-6">
             {!hasPaid
               ? "Please purchase a plan to access this page."
