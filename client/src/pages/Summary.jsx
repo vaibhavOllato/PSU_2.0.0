@@ -15,6 +15,7 @@ const Summary = () => {
   const [domainDataB, setDomainDataB] = useState([]);
   const [packageInfo, setPackageInfo] = useState(null);
   const [userFetchData, setUserFetchData] = useState(null);
+  const [hasGivenTest, setHasGivenTest] = useState(true);
 
   const userData = JSON.parse(localStorage.getItem("user") || "{}");
   const userId = userData.userId;
@@ -128,6 +129,13 @@ const Summary = () => {
         });
 
         const data = await response.json();
+
+        if (!data.results || data.results.length === 0) {
+          setHasGivenTest(false);
+          return;
+        }
+
+        setHasGivenTest(true); // set it true in case of valid results
 
         if (data.results && data.results.length > 0) {
           // Sort results by exam_date in descending order (latest first)
@@ -253,7 +261,9 @@ const Summary = () => {
           {isOpen && (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
               <div className="bg-blue-100 border-l-4 border-textSecondary rounded-lg shadow p-4">
-                <h5 className="text-secondary font-bold mb-2">Client Details</h5>
+                <h5 className="text-secondary font-bold mb-2">
+                  Client Details
+                </h5>
                 <ul className="space-y-2">
                   <li>
                     <strong>Client ID:</strong> {user?.userId || "0000"}
@@ -431,54 +441,63 @@ const Summary = () => {
             </div>
 
             {/* Score Table */}
-            <div className="overflow-x-auto">
-              <table className="w-full border border-blue-200 text-textSecondary text-sm">
-                <thead>
-                  <tr className="bg-blue-100">
-                    <th className="border px-4 py-2">Domain</th>
-                    <th className="border px-4 py-2">Score</th>
-                    <th className="border px-4 py-2 text-center">Status</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {domainDataB.map((data, index) => (
-                    <tr key={index} className="border">
-                      <td className="border px-4 py-2 text-center">
-                        {data.domain}
-                      </td>
-                      <td className="border px-4 py-2 text-center">
-                        {data.score}
-                      </td>
-                      <td className="border px-4 py-2 text-center">
-                        {data.status !== "Unknown" ? (
-                          // <span
-                          //   className={`inline-flex items-center gap-1 px-2 py-1 rounded text-white text-xs font-semibold ${
-                          //     data.status === "Excellent"
-                          //       ? "bg-green-500"
-                          //       : data.status === "Average"
-                          //       ? "bg-yellow-500"
-                          //       : "bg-red-500"
-                          //   }`}
-                          // >
-                          //   <IoMdCheckmark size={16} />
-                          //   {data.status}
-                          // </span>
-                          <span
-                            className="inline-flex items-center gap-1 px-2 py-1 rounded text-xs font-semibold"
-                            style={getStatusStyles(data.status)}
-                          >
-                            <IoMdCheckmark size={16} />
-                            {data.status}
-                          </span>
-                        ) : (
-                          "Unknown"
-                        )}
-                      </td>
+            {/* If no test given */}
+            {!hasGivenTest ? (
+              <div className="bg-red-100 text-gray-600 border border-red-300 p-6 rounded-lg text-center mt-6">
+                <p className="text-lg font-semibold">
+                  Please give a test first to view your summary report.
+                </p>
+              </div>
+            ) : (
+              <div className="overflow-x-auto">
+                <table className="w-full border border-blue-200 text-textSecondary text-sm">
+                  <thead>
+                    <tr className="bg-blue-100">
+                      <th className="border px-4 py-2">Domain</th>
+                      <th className="border px-4 py-2">Score</th>
+                      <th className="border px-4 py-2 text-center">Status</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                  </thead>
+                  <tbody>
+                    {domainDataB.map((data, index) => (
+                      <tr key={index} className="border">
+                        <td className="border px-4 py-2 text-center">
+                          {data.domain}
+                        </td>
+                        <td className="border px-4 py-2 text-center">
+                          {data.score}
+                        </td>
+                        <td className="border px-4 py-2 text-center">
+                          {data.status !== "Unknown" ? (
+                            // <span
+                            //   className={`inline-flex items-center gap-1 px-2 py-1 rounded text-white text-xs font-semibold ${
+                            //     data.status === "Excellent"
+                            //       ? "bg-green-500"
+                            //       : data.status === "Average"
+                            //       ? "bg-yellow-500"
+                            //       : "bg-red-500"
+                            //   }`}
+                            // >
+                            //   <IoMdCheckmark size={16} />
+                            //   {data.status}
+                            // </span>
+                            <span
+                              className="inline-flex items-center gap-1 px-2 py-1 rounded text-xs font-semibold"
+                              style={getStatusStyles(data.status)}
+                            >
+                              <IoMdCheckmark size={16} />
+                              {data.status}
+                            </span>
+                          ) : (
+                            "Unknown"
+                          )}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
 
             {/* Footer */}
             <div className="mt-6 border-t pt-4 text-sm text-center text-gray-600">
